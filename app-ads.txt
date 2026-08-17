@@ -1,0 +1,14 @@
+# app-ads.txt — Абрамов Леонард / santoapps
+#
+# TODO: PLACEHOLDER — the real lines have not been added yet.
+#
+# The Yandex Advertising Network GENERATES this file's contents; it is not
+# written by hand. Its console offers a download once it can read the app's
+# store page, and at the time of writing it cannot, so the download button
+# does not yet exist in the interface.
+#
+# Until the generated lines are pasted in below, THIS FILE VERIFIES NOTHING.
+# It is deliberately marked TODO so that is obvious to anyone who opens it,
+# rather than looking like a finished job.
+#
+# Publisher account (Yandex Advertising Network): 119021
