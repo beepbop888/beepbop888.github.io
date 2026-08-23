@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/apps/dnevnik/">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Дневник Пищеварения">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Дневник Пищеварения</title>
+  <link rel="manifest" href="manifest.json">
+  <!-- VK Bridge (vendored copy; see web/js/vk-bridge.js). Required for the
+       VK Mini App track: init handshake + VK's own ad mechanisms. -->
+  <script src="js/vk-bridge.js"></script>
+  <script>
+    // Minimal VK glue consumed from Dart via js_interop (lib/services/vk_ads/).
+    // Outside the VK container every call resolves to false and the app runs
+    // as a plain web page.
+    window.vkAds = (function () {
+      var bridge = window.vkBridge;
+      var inited = false;
+      if (bridge) {
+        try {
+          bridge.send('VKWebAppInit', {});
+          inited = true;
+        } catch (e) { inited = false; }
+      }
+      function send(method, params) {
+        if (!inited) return Promise.resolve(false);
+        return bridge.send(method, params)
+          .then(function (d) { return !!(d && d.result); })
+          .catch(function () { return false; });
+      }
+      return {
+        showInterstitial: function () {
+          return send('VKWebAppShowNativeAds', { ad_format: 'interstitial' });
+        },
+        showBanner: function () {
+          return send('VKWebAppShowBannerAd', { banner_location: 'bottom' });
+        },
+        showRewarded: function () {
+          return send('VKWebAppShowNativeAds', { ad_format: 'reward' });
+        }
+      };
+    })();
+  </script>
+</head>
+<body>
+  <script src="vk-bridge.browser.min.js"></script>
+  <script src="vk_ads.js"></script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
