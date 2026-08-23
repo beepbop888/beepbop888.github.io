@@ -1,6 +1,6 @@
 # santoapps
 
-Developer site for the apps published on RuStore by Абрамов Леонард.
+Developer site for the apps published on RuStore by RELN Group.
 
 It exists for two reasons, both practical:
 

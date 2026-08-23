@@ -1,0 +1,8 @@
+Placeholder photography for «Чистка галереи».
+
+Source: Lorem Picsum (https://picsum.photos), which serves Unsplash
+photography under the Unsplash Licence — free to use, including
+commercially, with no attribution required.
+
+These files are PLACEHOLDERS. The shipping app reads the device's own
+photo library; this directory is deleted when that integration lands.
