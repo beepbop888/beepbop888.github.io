@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+<script>
+// Test-site cache control. Flutter web installs a service worker that stores
+// the whole app on the phone and then serves ITS copy instead of asking the
+// server — so the owner reloaded «Коллекция» again and again and kept being
+// shown a build from days earlier, and reasonably concluded nothing had been
+// rebuilt. It had been, and was live. Every "reload twice / private tab"
+// instruction in this project was working around this without naming it.
+//
+// Two halves, and both are needed: refuse NEW registrations (patching the
+// minified loader is fragile, so the API itself is neutered), and remove any
+// worker ALREADY installed on this phone, which would otherwise keep serving
+// its cache for ever.
+(function () {
+  if (!('serviceWorker' in navigator)) return;
+  try {
+    navigator.serviceWorker.register = function () {
+      return Promise.resolve({ unregister: function () {
+        return Promise.resolve(true); } });
+    };
+  } catch (e) { /* frozen in some browsers; the cleanup below still runs */ }
+
+  navigator.serviceWorker.getRegistrations().then(function (regs) {
+    var had = regs.length > 0;
+    var jobs = regs.map(function (r) { return r.unregister(); });
+    if (window.caches && caches.keys) {
+      jobs.push(caches.keys().then(function (names) {
+        return Promise.all(names.map(function (n) { return caches.delete(n); }));
+      }));
+    }
+    Promise.all(jobs).then(function () {
+      // Reload once, only if something was actually cleared, or this is a
+      // refresh loop.
+      if (had && !sessionStorage.getItem('sw-cleared')) {
+        sessionStorage.setItem('sw-cleared', '1');
+        location.reload();
+      }
+    });
+  }).catch(function () {});
+})();
+</script>
+
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
