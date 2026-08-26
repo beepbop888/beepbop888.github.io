@@ -31,9 +31,9 @@ fields travel in the manifest for the pictures that are not bundled.
 | `f7179693c9ff` | Fireworks at Ryōgoku  (Ryōgoku  hanabi), from the series One Hundred Famous Views of Edo (Meisho Edo hyakkei) | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/26522) |
 | `5bc16dea6dd0` | Chinese Lions and Peonies | Isoda Koryusai | [Art Institute of Chicago](https://www.artic.edu/artworks/21211) |
 | `035379273092` | The Butterfly and the Pond | Rodolphe Bresdin | [Art Institute of Chicago](https://www.artic.edu/artworks/87098) |
-| `fc5f79296bac` | May, from Twelve Months of Flowers | Henry Fletcher | [Art Institute of Chicago](https://www.artic.edu/artworks/127984) |
 | `23f335208142` | "Strawberries. All ripe! All ripe!" | John Thomson | [Art Institute of Chicago](https://www.artic.edu/artworks/215539) |
 | `3ede4be4ceaa` | Putto with Garland | Andrea Lilio | [Art Institute of Chicago](https://www.artic.edu/artworks/112417) |
+| `c5bd28eeed2d` | Japanese Grosbeak and Marvel of Peru (Ikaru, oshiroi no hana), from an untitled series of flowers and birds | Katsushika Hokusai | [Art Institute of Chicago](https://www.artic.edu/artworks/87027) |
 | `d0e9ae2d8aca` | Snow at Akabane Bridge in Shiba (Shiba Akabane no yuki), from the series "Famous Places in the Eastern Capital (Toto meisho)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/10932) |
 | `f6f01bd41711` | Love of Winter | George Wesley Bellows | [Art Institute of Chicago](https://www.artic.edu/artworks/109780) |
 | `edde75ec4fb1` | Sanno Festival Procession at Kojimachi Itchome (Kojimachi Itchome Sanno Matsuri nerikomi), from the series "One Hundred Famous Views of Edo (Meisho Edo hyakkei)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/34269) |
