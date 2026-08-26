@@ -14,63 +14,63 @@ fields travel in the manifest for the pictures that are not bundled.
 
 | picture | title | artist | collection |
 |---|---|---|---|
+| `e614be836e33` | Bouquet of Flowers and Fruit with Blue Ribbon | Maria van Oosterwijck | [Art Institute of Chicago](https://www.artic.edu/artworks/264716) |
+| `1caf87f30efb` | Flower Clouds | Odilon Redon | [Art Institute of Chicago](https://www.artic.edu/artworks/76395) |
+| `dc3a8199c797` | Magnolias on Light Blue Velvet Cloth | Martin Johnson Heade | [Art Institute of Chicago](https://www.artic.edu/artworks/100829) |
+| `fb903396e6e0` | Flowers: Poppies and Daisies | Odilon Redon | [Art Institute of Chicago](https://www.artic.edu/artworks/94240) |
+| `2e09c668fbbb` | Roses in a Vase | Georges Seurat | [Art Institute of Chicago](https://www.artic.edu/artworks/150828) |
+| `aaccda97b9cc` | The Vase of Tulips | Paul Cezanne | [Art Institute of Chicago](https://www.artic.edu/artworks/14561) |
+| `31749546ab65` | Chrysanthemums | Pierre-Auguste Renoir | [Art Institute of Chicago](https://www.artic.edu/artworks/16617) |
+| `e7f3a8a8840f` | Water Lily Pond | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/87088) |
+| `e47ae1064e50` | Still Life | Pieter Claesz | [Art Institute of Chicago](https://www.artic.edu/artworks/21682) |
+| `549c3a6b3836` | Great tit on cherry blossom branch | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/88853) |
+| `3ce5c81bb5eb` | Flowering Cherry and Autumn Maples with Poem Slips | Tosa Mitsuoki | [Art Institute of Chicago](https://www.artic.edu/artworks/127643) |
+| `17f1d2673319` | An Abundance of Fruit | Severin Roesen | [Art Institute of Chicago](https://www.artic.edu/artworks/182381) |
+| `2359eb93b719` | European Banquet Scene (or The Marriage Feast at Cana?) | Mughal | [Art Institute of Chicago](https://www.artic.edu/artworks/76810) |
+| `a7c82d930240` | Holi Festival in a Walled Garden with Celebrants | — | [Art Institute of Chicago](https://www.artic.edu/artworks/210513) |
+| `f7179693c9ff` | Fireworks at Ryōgoku  (Ryōgoku  hanabi), from the series One Hundred Famous Views of Edo (Meisho Edo hyakkei) | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/26522) |
+| `5bc16dea6dd0` | Chinese Lions and Peonies | Isoda Koryusai | [Art Institute of Chicago](https://www.artic.edu/artworks/21211) |
+| `035379273092` | The Butterfly and the Pond | Rodolphe Bresdin | [Art Institute of Chicago](https://www.artic.edu/artworks/87098) |
+| `fc5f79296bac` | May, from Twelve Months of Flowers | Henry Fletcher | [Art Institute of Chicago](https://www.artic.edu/artworks/127984) |
+| `23f335208142` | "Strawberries. All ripe! All ripe!" | John Thomson | [Art Institute of Chicago](https://www.artic.edu/artworks/215539) |
+| `3ede4be4ceaa` | Putto with Garland | Andrea Lilio | [Art Institute of Chicago](https://www.artic.edu/artworks/112417) |
+| `d0e9ae2d8aca` | Snow at Akabane Bridge in Shiba (Shiba Akabane no yuki), from the series "Famous Places in the Eastern Capital (Toto meisho)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/10932) |
+| `f6f01bd41711` | Love of Winter | George Wesley Bellows | [Art Institute of Chicago](https://www.artic.edu/artworks/109780) |
+| `edde75ec4fb1` | Sanno Festival Procession at Kojimachi Itchome (Kojimachi Itchome Sanno Matsuri nerikomi), from the series "One Hundred Famous Views of Edo (Meisho Edo hyakkei)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/34269) |
+| `4fe765e39931` | House cleaning in preparation for the New Year | Kitagawa Utamaro | [Art Institute of Chicago](https://www.artic.edu/artworks/21687) |
+| `28d902f3a0ea` | Portico with a Lantern | Follower of Canaletto | [Art Institute of Chicago](https://www.artic.edu/artworks/5288) |
+| `9e532855caa7` | Hakone: Traveling with Pine Torches in the Night (Hakone, yonaka taimatsu tori)—No. 11, from the series "Fifty-three Stations of the Tokaido (Tokaido gojusan tsugi)," also known as the Reisho Tokaido | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/25797) |
+| `e4b75e7e95d2` | Painting with Troika | Vasily Kandinsky | [Art Institute of Chicago](https://www.artic.edu/artworks/8983) |
+| `0fb2b32c09de` | Clump of Trees with a Village in the Distance | Rodolphe Bresdin | [Art Institute of Chicago](https://www.artic.edu/artworks/99553) |
+| `4895e46a72e1` | The Church of Overschie | Johan Barthold Jongkind | [Art Institute of Chicago](https://www.artic.edu/artworks/111630) |
+| `1e85b4346f78` | Ghost Dance (The Vision of Life) | Ralph Albert Blakelock | [Art Institute of Chicago](https://www.artic.edu/artworks/90062) |
 | `7f24ad17c74d` | The Song of the Lark | Jules Breton | [Art Institute of Chicago](https://www.artic.edu/artworks/94841) |
 | `419538c2edb3` | York Harbor, Coast of Maine | Martin Johnson Heade | [Art Institute of Chicago](https://www.artic.edu/artworks/152747) |
-| `375d4fe0e742` | Cranes in an Iris Pond at Sunrise | Isoda Koryusai | [Art Institute of Chicago](https://www.artic.edu/artworks/21202) |
 | `a0e5823c2c81` | Morning | Claude Joseph Vernet | [Art Institute of Chicago](https://www.artic.edu/artworks/16439) |
 | `7ca203c62581` | The Petite Creuse River | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/81546) |
-| `1101cd961bb3` | Fishing in Spring, the Pont de Clichy (Asnières) | Vincent van Gogh | [Art Institute of Chicago](https://www.artic.edu/artworks/109314) |
+| `dd6768223809` | Delaying the announcement of dawn | Suzuki Harunobu | [Art Institute of Chicago](https://www.artic.edu/artworks/20948) |
 | `355ab961538b` | Mountain Road with Travelers | Joos de Momper, II | [Art Institute of Chicago](https://www.artic.edu/artworks/16340) |
 | `211b2eeae685` | Afternoon Tea | Jean-François Rafaëlli | [Art Institute of Chicago](https://www.artic.edu/artworks/186425) |
 | `d733934ed56d` | The Poet's Garden | Vincent van Gogh | [Art Institute of Chicago](https://www.artic.edu/artworks/14586) |
-| `3f6191c73ce7` | Peasants Bringing Home a Calf Born in the Fields | Jean François Millet | [Art Institute of Chicago](https://www.artic.edu/artworks/111648) |
-| `263ce91bdea7` | Moonrise | George Inness | [Art Institute of Chicago](https://www.artic.edu/artworks/64754) |
-| `1aa9829dabb7` | Evening Snow on a Floss Shaper (Nurioke no bosetsu), from the series "Eight Views of the Parlor (Zashiki hakkei)" | Suzuki Harunobu | [Art Institute of Chicago](https://www.artic.edu/artworks/88977) |
-| `258fa12c0328` | The Star | Hilaire Germain Edgar Degas | [Art Institute of Chicago](https://www.artic.edu/artworks/60656) |
-| `78648cd6ab19` | A Lamplight Study: Herr Joachim | George Frederick Watts | [Art Institute of Chicago](https://www.artic.edu/artworks/16558) |
-| `481a13aada47` | Still Life with Game Fowl | Juan Sánchez Cotán | [Art Institute of Chicago](https://www.artic.edu/artworks/84709) |
-| `e7cc7d3dcfa7` | In a Railway Carriage (After a Night's Journey) | Adolph Friedrich Erdmann von Menzel | [Art Institute of Chicago](https://www.artic.edu/artworks/215327) |
-| `67ac31d885a2` | Summer Twilight on the Banks of the Sumida River | Torii Kiyonaga | [Art Institute of Chicago](https://www.artic.edu/artworks/190436) |
-| `74a26a982d81` | Moonlight on the Yodo River (Yodogawa), from the series "Snow, Moon and Flowers (Setsugekka)" | Katsushika Hokusai | [Art Institute of Chicago](https://www.artic.edu/artworks/32271) |
-| `e91566d16d44` | Evening Snow at Ikenohata (Ikenohata bosetsu), from the series "Eight Views of Prosperity in the Eastern Village (Azuma no sato eiga hakkei)" | Isoda Koryusai | [Art Institute of Chicago](https://www.artic.edu/artworks/21158) |
-| `ad283bb777c7` | The Fates Gathering in the Stars | Elihu Vedder | [Art Institute of Chicago](https://www.artic.edu/artworks/74967) |
-| `192d2fd65fe9` | Still-Life with a Green Flower Vase | Paula Modersohn-Becker | [Art Institute of Chicago](https://www.artic.edu/artworks/14310) |
-| `aaccda97b9cc` | The Vase of Tulips | Paul Cezanne | [Art Institute of Chicago](https://www.artic.edu/artworks/14561) |
-| `60b87153b6e4` | Still Life with Monkey, Fruits, and Flowers | Jean-Baptiste Oudry | [Art Institute of Chicago](https://www.artic.edu/artworks/94126) |
-| `2e09c668fbbb` | Roses in a Vase | Georges Seurat | [Art Institute of Chicago](https://www.artic.edu/artworks/150828) |
-| `06876ab9fb23` | Trompe-l'Oeil Still Life with a Flower Garland and a Curtain | Adriaen van der Spelt | [Art Institute of Chicago](https://www.artic.edu/artworks/66042) |
-| `451b7fb2000b` | The Feast in the House of Simon | El Greco (Doménikos Theotokópoulos) and workshop | [Art Institute of Chicago](https://www.artic.edu/artworks/65509) |
-| `a7c82d930240` | Holi Festival in a Walled Garden with Celebrants | — | [Art Institute of Chicago](https://www.artic.edu/artworks/210513) |
-| `add846983328` | Women and Children Viewing the Fireworks | Katsushika Hokusai | [Art Institute of Chicago](https://www.artic.edu/artworks/24478) |
-| `5bc16dea6dd0` | Chinese Lions and Peonies | Isoda Koryusai | [Art Institute of Chicago](https://www.artic.edu/artworks/21211) |
-| `7dc8cc95dc1e` | Flower Girl in Holland | George Hitchcock | [Art Institute of Chicago](https://www.artic.edu/artworks/138) |
-| `e614be836e33` | Bouquet of Flowers and Fruit with Blue Ribbon | Maria van Oosterwijck | [Art Institute of Chicago](https://www.artic.edu/artworks/264716) |
-| `4e31074207af` | Woman on Rose Divan | Henri Matisse | [Art Institute of Chicago](https://www.artic.edu/artworks/27980) |
-| `31749546ab65` | Chrysanthemums | Pierre-Auguste Renoir | [Art Institute of Chicago](https://www.artic.edu/artworks/16617) |
-| `e7f3a8a8840f` | Water Lily Pond | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/87088) |
-| `81d203e4af89` | The Irish Question | De Scott Evans | [Art Institute of Chicago](https://www.artic.edu/artworks/181777) |
-| `549c3a6b3836` | Great tit on cherry blossom branch | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/88853) |
-| `76b9ac246db0` | Japanese white-eye on flowering branch | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/19018) |
-| `dfd2194a4e67` | In the Daisy Field - "Sweet flow'ret of the rural glade" | Underwood & Underwood | [Art Institute of Chicago](https://www.artic.edu/artworks/197580) |
-| `b0e0abd5a8c3` | Chrysanthemums | Katsukawa Shunsho | [Art Institute of Chicago](https://www.artic.edu/artworks/72845) |
-| `6daff2971839` | Lilies, from an untitled series of Large Flowers | Katsushika Hokusai | [Art Institute of Chicago](https://www.artic.edu/artworks/25102) |
-| `f3363291e33d` | Man with Lance Riding through the Snow | Adolphe Schreyer | [Art Institute of Chicago](https://www.artic.edu/artworks/895) |
-| `b6a1b2c367e1` | Winter Scene | Francisco José de Goya y Lucientes | [Art Institute of Chicago](https://www.artic.edu/artworks/93450) |
-| `fa23615b5a4c` | An Alpine Scene | Gustave Courbet | [Art Institute of Chicago](https://www.artic.edu/artworks/39554) |
-| `edde75ec4fb1` | Sanno Festival Procession at Kojimachi Itchome (Kojimachi Itchome Sanno Matsuri nerikomi), from the series "One Hundred Famous Views of Edo (Meisho Edo hyakkei)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/34269) |
-| `404656ff380e` | Bon Festival Lanterns and Plant Seller, from the illustrated book "Picture Book: Flowers of the Four Seasons (Ehon shiki no hana)," vol. 2 | Kitagawa Utamaro | [Art Institute of Chicago](https://www.artic.edu/artworks/34798) |
-| `c1ff5d7c126b` | The Elements of Skating: Attitude is Everything | James Gillray | [Art Institute of Chicago](https://www.artic.edu/artworks/89897) |
-| `d0e9ae2d8aca` | Snow at Akabane Bridge in Shiba (Shiba Akabane no yuki), from the series "Famous Places in the Eastern Capital (Toto meisho)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/10932) |
-| `f6f01bd41711` | Love of Winter | George Wesley Bellows | [Art Institute of Chicago](https://www.artic.edu/artworks/109780) |
-| `28d902f3a0ea` | Portico with a Lantern | Follower of Canaletto | [Art Institute of Chicago](https://www.artic.edu/artworks/5288) |
-| `4d5ffa210f0b` | The Banks of the Marne in Winter | Camille Pissarro | [Art Institute of Chicago](https://www.artic.edu/artworks/6005) |
+| `e8881620bbda` | Spring in France | Robert William Vonnoh | [Art Institute of Chicago](https://www.artic.edu/artworks/97292) |
+| `2c6c8b9459c4` | Two Cows and a Young Bull beside a Fence in a Meadow | Paulus Potter | [Art Institute of Chicago](https://www.artic.edu/artworks/146953) |
 | `0e0fc643b07d` | Stacks of Wheat (End of Summer) | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/64818) |
 | `872acb145bf7` | Landscape at Chailly | Frédéric Bazille | [Art Institute of Chicago](https://www.artic.edu/artworks/44017) |
-| `2e3e01ceb882` | Orange Sky with Scattered Clouds, Greece | Lockwood de Forest | [Art Institute of Chicago](https://www.artic.edu/artworks/210189) |
-| `1017248e13b7` | Greek Mountain Peak at Twilight | Lockwood de Forest | [Art Institute of Chicago](https://www.artic.edu/artworks/210238) |
+| `139dc61267ce` | Landscape: Window Overlooking the Woods | Édouard Jean Vuillard | [Art Institute of Chicago](https://www.artic.edu/artworks/109926) |
 | `eaade9828b41` | Avenue of Pollard Birches and Poplars | Vincent van Gogh | [Art Institute of Chicago](https://www.artic.edu/artworks/202382) |
+| `a82af5e903b0` | Summer: Cat on a Balustrade | Théophile-Alexandre Pierre Steinlen | [Art Institute of Chicago](https://www.artic.edu/artworks/51724) |
 | `79778bad2baa` | Seascape | Pierre-Auguste Renoir | [Art Institute of Chicago](https://www.artic.edu/artworks/81557) |
 | `3154dac60123` | Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series "Thirty-Six Views of Mount Fuji (Fugaku sanjurokkei)" | Katsushika Hokusai | [Art Institute of Chicago](https://www.artic.edu/artworks/77333) |
 | `210b93f977f0` | Stowing Sail | Winslow Homer | [Art Institute of Chicago](https://www.artic.edu/artworks/16831) |
-| `bae975cb2d70` | Boy in Boat, Gloucester | Winslow Homer | [Art Institute of Chicago](https://www.artic.edu/artworks/16800) |
-| `d71f61f105a5` | Autumn Maples with Poem Slips | Tosa Mitsuoki | [Art Institute of Chicago](https://www.artic.edu/artworks/127644) |
+| `b278572afec7` | Coast Scene | Reinier Nooms, called Zeeman | [Art Institute of Chicago](https://www.artic.edu/artworks/495) |
+| `546a27162abd` | The Departure of the Boats, Étretat | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/81540) |
+| `263ce91bdea7` | Moonrise | George Inness | [Art Institute of Chicago](https://www.artic.edu/artworks/64754) |
+| `a70e69d9b8ac` | Prout's Neck, Evening | Winslow Homer | [Art Institute of Chicago](https://www.artic.edu/artworks/16821) |
+| `c9026f1da73f` | La Noce au Chateau (The Night at the Chateau) | Philibert Louis Debucourt | [Art Institute of Chicago](https://www.artic.edu/artworks/14449) |
+| `4cd3768779b1` | Interior with Hanging Lamp, plate four from Landscapes and Interiors | Édouard Jean Vuillard | [Art Institute of Chicago](https://www.artic.edu/artworks/22740) |
+| `af0720fa15ca` | King Anushirwan and the Owls, from the Khamsa of Nizami | Islamic | [Art Institute of Chicago](https://www.artic.edu/artworks/92975) |
+| `6d271bf471a6` | Twilight | Gifford Beal (American, 1879–1956) | [Cleveland Museum of Art](https://www.clevelandart.org/art/124805) |
+| `b7aa502c93a5` | The August Moon | William Trost Richards | [Art Institute of Chicago](https://www.artic.edu/artworks/57209) |
+| `8a9d86f73076` | Evening Snow at Mimeguri, Eight Views of the Sumida River (Sumidagawa hakkei, Mimeguri bosetsu), from the series "Famous Places in the Eastern Capital (Toto meisho no uchi)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/19037) |
+| `2731719438d1` | Te po (The Night) from the Noa Noa Suite | Paul Gauguin | [Art Institute of Chicago](https://www.artic.edu/artworks/63015) |
+| `fd383e2a4c1f` | Evening Glow of a Lamp (Andon no sekisho), from the series "Eight Views of the Parlor (Zashiki hakkei)" | Suzuki Harunobu | [Art Institute of Chicago](https://www.artic.edu/artworks/20817) |
