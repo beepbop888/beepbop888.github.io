@@ -73,6 +73,44 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <!-- The barcode library, from OUR OWN origin.
+       mobile_scanner injects this itself when the camera starts, but the
+       photo-decoding fallback needs it whether the camera ever starts or
+       not — and on a phone where the camera is refused, that fallback IS
+       the app. 292 KB, loaded once. -->
+  <script src="zxing.min.js"></script>
+  <script>
+    // Decode a QR or barcode out of a data: URL, using the library above.
+    // Returns the text, or '' when there is nothing to read. Never throws
+    // into Dart: a rejected promise there is an unhandled error with no
+    // message attached, which is exactly the silent failure this app keeps
+    // being reported for.
+    window.decodeCodeFromDataUrl = function (dataUrl) {
+      return new Promise(function (resolve) {
+        try {
+          if (!window.ZXing) { resolve(''); return; }
+          var image = new Image();
+          image.onload = function () {
+            try {
+              var reader = new ZXing.BrowserMultiFormatReader();
+              var result = reader.decodeFromImageElement
+                ? reader.decodeFromImageElement(image)
+                : null;
+              if (result && result.then) {
+                result.then(
+                  function (r) { resolve(r && r.text ? r.text : ''); },
+                  function () { resolve(''); });
+              } else {
+                resolve(result && result.text ? result.text : '');
+              }
+            } catch (e) { resolve(''); }
+          };
+          image.onerror = function () { resolve(''); };
+          image.src = dataUrl;
+        } catch (e) { resolve(''); }
+      });
+    };
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
