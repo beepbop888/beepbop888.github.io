@@ -1,6 +1,6 @@
 {
-    "name": "tuner",
-    "short_name": "tuner",
+    "name": "Тюнер и метроном",
+    "short_name": "Тюнер и метроном",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

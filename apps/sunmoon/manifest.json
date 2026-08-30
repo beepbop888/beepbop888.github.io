@@ -1,6 +1,6 @@
 {
-    "name": "sun_moon",
-    "short_name": "sun_moon",
+    "name": "Солнце и луна",
+    "short_name": "Солнце и луна",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

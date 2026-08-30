@@ -1,6 +1,6 @@
 {
-    "name": "star_map",
-    "short_name": "star_map",
+    "name": "Звёздное небо",
+    "short_name": "Звёздное небо",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
