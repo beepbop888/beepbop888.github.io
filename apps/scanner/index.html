@@ -80,34 +80,74 @@
        the app. 292 KB, loaded once. -->
   <script src="zxing.min.js"></script>
   <script>
-    // Decode a QR or barcode out of a data: URL, using the library above.
-    // Returns the text, or '' when there is nothing to read. Never throws
-    // into Dart: a rejected promise there is an unhandled error with no
-    // message attached, which is exactly the silent failure this app keeps
-    // being reported for.
+    // Decode a QR or barcode out of a data: URL.
+    //
+    // WHY NOT `decodeFromImageElement`, which is the obvious call and was
+    // what this used: it does not work. Given a clean 410x410 QR it answers
+    // "No MultiFormat Readers were able to detect the code", and the old
+    // helper turned that into '' — indistinguishable from "there was no code
+    // in your photo". That is the whole reported fault: *"qr code reader is
+    // not working"*.
+    //
+    // The canvas route decodes the same image first time. So: draw the
+    // picture onto a canvas, take the luminance from that, and hand it to a
+    // MultiFormatReader with TRY_HARDER. Tried upright first, then inverted,
+    // because a light-on-dark code is common on screens and printed tickets.
+    //
+    // Returns JSON: {"text": "...", "problem": "..."}. The problem is
+    // carried out rather than swallowed, because a decoder that fails
+    // silently is exactly what shipped last time.
     window.decodeCodeFromDataUrl = function (dataUrl) {
       return new Promise(function (resolve) {
-        try {
-          if (!window.ZXing) { resolve(''); return; }
-          var image = new Image();
-          image.onload = function () {
-            try {
-              var reader = new ZXing.BrowserMultiFormatReader();
-              var result = reader.decodeFromImageElement
-                ? reader.decodeFromImageElement(image)
-                : null;
-              if (result && result.then) {
-                result.then(
-                  function (r) { resolve(r && r.text ? r.text : ''); },
-                  function () { resolve(''); });
-              } else {
-                resolve(result && result.text ? result.text : '');
+        var answer = function (text, problem) {
+          resolve(JSON.stringify({text: text || '', problem: problem || ''}));
+        };
+        if (!window.ZXing) { answer('', 'Библиотека чтения не загрузилась.'); return; }
+        var image = new Image();
+        image.onerror = function () {
+          answer('', 'Не удалось открыть это изображение.');
+        };
+        image.onload = function () {
+          try {
+            var w = image.naturalWidth || image.width;
+            var h = image.naturalHeight || image.height;
+            if (!w || !h) { answer('', 'Изображение пустое.'); return; }
+            // A 12-megapixel phone photo is slow and no more readable; cap
+            // the long side and let the binarizer work on something sane.
+            var cap = 1600;
+            var k = Math.min(1, cap / Math.max(w, h));
+            var canvas = document.createElement('canvas');
+            canvas.width = Math.round(w * k);
+            canvas.height = Math.round(h * k);
+            var ctx = canvas.getContext('2d', {willReadFrequently: true});
+            ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+            var source = new ZXing.HTMLCanvasElementLuminanceSource(canvas);
+            var hints = new Map();
+            hints.set(ZXing.DecodeHintType.TRY_HARDER, true);
+            var last = '';
+            for (var pass = 0; pass < 2; pass++) {
+              try {
+                var used = pass === 0 ? source : source.invert();
+                var bitmap = new ZXing.BinaryBitmap(
+                  new ZXing.HybridBinarizer(used));
+                var reader = new ZXing.MultiFormatReader();
+                reader.setHints(hints);
+                var result = reader.decode(bitmap);
+                var text = result.getText ? result.getText() : result.text;
+                if (text) { answer(text, ''); return; }
+              } catch (inner) {
+                last = (inner && inner.message) || String(inner);
               }
-            } catch (e) { resolve(''); }
-          };
-          image.onerror = function () { resolve(''); };
-          image.src = dataUrl;
-        } catch (e) { resolve(''); }
+            }
+            answer('', 'Код на снимке не найден. Снимите ближе, чтобы код '
+                     + 'занимал большую часть кадра.');
+          } catch (outer) {
+            answer('', 'Не удалось прочитать снимок: '
+                     + ((outer && outer.message) || outer));
+          }
+        };
+        image.src = dataUrl;
       });
     };
   </script>
