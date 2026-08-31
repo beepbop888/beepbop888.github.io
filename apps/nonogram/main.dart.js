@@ -21148,7 +21148,7 @@ return A.I(q.vA("\u041d\u043e\u0432\u044b\u0439 \u0443\u0437\u043e\u0440 \u2014 
 case 5:case 3:return A.B(null,r)}})
 return A.C($async$NC,r)},
 auZ(){var s,r,q,p,o,n,m,l=null
-A.atR("R-M-TODO-nonogram-3")
+A.atR("R-M-19839886-3")
 if($.ag==null)A.aaS()
 $.ag.fx$.push(new A.a8w())
 if($.ag==null)A.aaS()
@@ -66331,8 +66331,8 @@ for(m=0;m<B.b.gI(s).length;++m){l=r[q]
 l[m]=s[q][m]==="#"?B.bs:B.i6}++this.c
 return q}}
 A.jk.prototype={
-ai(){var s="R-M-TODO-nonogram-4"
-return new A.wf(new A.ox("R-M-TODO-nonogram-1"),B.vn,new A.ox(s),new A.TG("R-M-TODO-nonogram-2"),new A.ox(s),new A.ox("R-M-TODO-nonogram-5"),B.hO,B.l)}}
+ai(){var s="R-M-19839886-4"
+return new A.wf(new A.ox("R-M-19839886-1"),B.vn,new A.ox(s),new A.TG("R-M-19839886-2"),new A.ox(s),new A.ox("R-M-19839886-5"),B.hO,B.l)}}
 A.wf.prototype={
 gyO(){var s,r=this,q=r.d
 if(q===$){s=r.a.c
