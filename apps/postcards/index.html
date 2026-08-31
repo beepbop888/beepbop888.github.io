@@ -73,6 +73,35 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script>
+    // Can this browser hand a FILE to the share sheet? `navigator.share`
+    // existing is not the same question: Chrome on Windows has it and
+    // refuses files, which is how «Отправить» came to do nothing at all.
+    window.canSharePostcardFile = function () {
+      try {
+        if (!navigator.canShare || !navigator.share) return false;
+        var probe = new File([new Blob([new Uint8Array([0])],
+                    {type: 'image/png'})], 'p.png', {type: 'image/png'});
+        return navigator.canShare({files: [probe]});
+      } catch (e) { return false; }
+    };
+
+    // The fallback: put the finished card in the downloads folder, so it can
+    // be attached to any chat by hand.
+    window.savePostcardPng = function (dataUrl, name) {
+      return new Promise(function (resolve) {
+        try {
+          var a = document.createElement('a');
+          a.href = dataUrl;
+          a.download = name || 'otkrytka.png';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          resolve(true);
+        } catch (e) { resolve(false); }
+      });
+    };
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
