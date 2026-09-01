@@ -18,34 +18,39 @@ fields travel in the manifest for the pictures that are not bundled.
 | `3de2ee524337` | Springtime white blossom (Unsplash) | Katherine McCormack kathymacky | [commons](61808179) |
 | `db7bf9f140a7` | Willow and Cherry Branches, from the series "Worlds of Things (Momoyogusa)" | Kamisaka Sekka | [Art Institute of Chicago](https://www.artic.edu/artworks/127739) |
 | `004f1ecfe1e4` | Stafford Springs Congregational Church - Stafford Springs, Connecticut - DSC04239 | Daderot | [commons](61053825) |
-| `6e8efba2dab5` | Still Life with Eggs and a Leg of Mutton | French School | [Art Institute of Chicago](https://www.artic.edu/artworks/111041) |
 | `c75d2b888cca` | Easter Lily close-up | Alabama Extension | [commons](102660258) |
 | `9b7d81ec197c` | Sunrise View Behind The Desert Plant | Ravi9460 | [commons](166660627) |
 | `f240ad7d8372` | Still Life with Bread, Salami, and Nuts, by Giacomo Ceruti (Getty 10A1RG) | Giacomo Ceruti | [commons](151918497) |
+| `f9c1382818ad` | Testing Eggs. Interior of a Kitchen (Pehr Hilleström d.ä.) - Nationalmuseum - 18113 | Pehr Hilleström | [commons](52111237) |
 | `139dc61267ce` | Landscape: Window Overlooking the Woods | Édouard Jean Vuillard | [Art Institute of Chicago](https://www.artic.edu/artworks/109926) |
 | `1caf87f30efb` | Flower Clouds | Odilon Redon | [Art Institute of Chicago](https://www.artic.edu/artworks/76395) |
 | `0c24aefa39c2` | Fragrant chamomile (Unsplash) | chaithanya krishnan chaithanya_krishnan | [commons](61808230) |
 | `211b2eeae685` | Afternoon Tea | Jean-François Rafaëlli | [Art Institute of Chicago](https://www.artic.edu/artworks/186425) |
 | `aff480909ba1` | The Interior of the Palm House on the Pfaueninsel Near Potsdam | Carl Blechen | [Art Institute of Chicago](https://www.artic.edu/artworks/144969) |
 | `abfa3a3ea61f` | MD.C.C - Birds of the Garden of the Ethnographic museum in Chișinău - may 2017 - 01 | Gikü | [commons](59777382) |
-| `0801c01d49b7` | The Bird Catcher | Thomas Couture | [Art Institute of Chicago](https://www.artic.edu/artworks/44063) |
-| `7c9e9de543ec` | Painting with Green Center | Vasily Kandinsky | [Art Institute of Chicago](https://www.artic.edu/artworks/8987) |
+| `7682340a4a7a` | Spring 1899 (1899) (20553451135) | Innisfallen Greenhouses;
+Charles A. Reeser Co;
+
+Henry G. Gilbert Nursery and See | [commons](42346770) |
+| `4d22bf747b01` | Through the year with birds and poets (poems); (1900) (14564786817) | BGD
+
+Internet Archive Book Images | [commons](43731934) |
 | `d0e9ae2d8aca` | Snow at Akabane Bridge in Shiba (Shiba Akabane no yuki), from the series "Famous Places in the Eastern Capital (Toto meisho)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/10932) |
 | `4b418977e7a5` | Fog over winter hillside (Unsplash) | Alberto Restifo albertorestifo | [commons](58805313) |
 | `9dd3ff180627` | Young redcedar celebrates the rare rays of light found within a mature douglas-fir grove | Extemporalist | [commons](76245719) |
-| `bbd0813311bb` | The Road to Market | Constant Troyon | [Art Institute of Chicago](https://www.artic.edu/artworks/896) |
 | `a9922e79a04b` | Young pine wood (Unsplash) | Dawid Zawiła davealmine | [commons](61881416) |
-| `065cca86e466` | "Slashed Star" or "Rose Window" Quilt | — | [Art Institute of Chicago](https://www.artic.edu/artworks/76040) |
-| `75ecb51b1765` | The Elements of Skating: Making the Most of a Passing Friend | James Gillray | [Art Institute of Chicago](https://www.artic.edu/artworks/89900) |
+| `4b88b84d7db5` | Snowaboard ramp Oulu Market Square 20070218 02 | Estormiz | [commons](36387300) |
+| `4c52eac10082` | Horse-drawn sleigh - Ramsau am Dachstein - Leiten | oursana | [commons](120275437) |
 | `5bc1b09c5005` | Fir trees in the cold snow (Unsplash) | Dan Paul idantero | [commons](62217638) |
+| `f6f01bd41711` | Love of Winter | George Wesley Bellows | [Art Institute of Chicago](https://www.artic.edu/artworks/109780) |
 | `06a89bb39007` | The Young Mother by Auguste Rodin | 14GTR | [commons](143640335) |
 | `5aa3de618be8` | A Family Meal | Evert Pieters | [Art Institute of Chicago](https://www.artic.edu/artworks/65847) |
 | `1de96d737e5a` | Interior of FamilyMart Wuri Chengling Store 20150606 | 玄史生 | [commons](40918835) |
-| `1490730e0456` | The Flower of Pain | Edvard Munch | [Art Institute of Chicago](https://www.artic.edu/artworks/186321) |
 | `9c355901cc2b` | The Bouquet (Unsplash) | Sweet Ice Cream Photography sweeticecreamphotography | [commons](61709818) |
-| `2e09c668fbbb` | Roses in a Vase | Georges Seurat | [Art Institute of Chicago](https://www.artic.edu/artworks/150828) |
 | `8913b8084017` | Peony vase (Unsplash) | Alexandra Seinet alexseinet | [commons](61811544) |
 | `34fb3cfa58b5` | A mother of the Meitei domestic cat breed (Meitei house cat variety) and her kitten in Imphal 03 | Haoreima | [commons](142917063) |
+| `6628f0722d30` | The Holy Family with Saints Elizabeth and John the Baptist | Peter Paul Rubens | [Art Institute of Chicago](https://www.artic.edu/artworks/27310) |
+| `cc64b2437578` | Interior of FamilyMart Sendong Store 20161019 | 玄史生 | [commons](52472593) |
 | `e18ffe3c1684` | Flowers in an Urn Decorated with Putti, on a Plinth | Jan van Huysum | [Art Institute of Chicago](https://www.artic.edu/artworks/149035) |
 | `5c251243b4f4` | Bird and wild carnation | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/33661) |
 | `6fd4c596e1f4` | May Belfort | Henri de Toulouse-Lautrec | [Art Institute of Chicago](https://www.artic.edu/artworks/67177) |
@@ -57,11 +62,11 @@ fields travel in the manifest for the pictures that are not bundled.
 | `8882764bada8` | Yamauba with Kintaro Holding a Toy Mask | Kitagawa Utamaro | [Art Institute of Chicago](https://www.artic.edu/artworks/3568) |
 | `3adfacca014d` | The Infant Krishna Spirited Away by Vasudev, from a copy of the Dispersed Bhagavat Purana | — | [Art Institute of Chicago](https://www.artic.edu/artworks/131908) |
 | `9a409bc44548` | No stork (50381984941) | Alex  Hoekerd from Nunspeet, The Netherlands | [commons](94906109) |
-| `5af62e5369ef` | "The Fox and the Grey Goose" Nursery Rhyme Jug | — | [Art Institute of Chicago](https://www.artic.edu/artworks/26977) |
 | `69957374a868` | Rhododendron 'Pink Cherub' - Hillier Gardens - Romsey, Hampshire, England - DSC04877 | Daderot | [commons](58049204) |
-| `f68f227615f4` | Folding Shoe Measure | — | [Art Institute of Chicago](https://www.artic.edu/artworks/19423) |
+| `f3f0c866bd11` | Keinänen In the cradle | Sigfrid Keinänen | [commons](38085051) |
+| `125d26fc18f8` | White storks in Dutch nest | Apdency | [commons](15287105) |
 | `daf054838cf0` | Cherub Head - YDEA - 6682 | anonymous | [commons](104838532) |
-| `3bc1b2d0c481` | Pair of Shoes | Gundry & Sons | [Art Institute of Chicago](https://www.artic.edu/artworks/27298) |
+| `eb0910e9bc6e` | Pappoose in Indian cradle (NYPL b11708187-G91F057 353F) | Scan by NYPL | [commons](50136961) |
 | `f302ace256b7` | Mimosa Pudica | Hrushikesh | [commons](13653936) |
 | `76b9ac246db0` | Japanese white-eye on flowering branch | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/19018) |
 | `aaccda97b9cc` | The Vase of Tulips | Paul Cezanne | [Art Institute of Chicago](https://www.artic.edu/artworks/14561) |
@@ -69,14 +74,17 @@ fields travel in the manifest for the pictures that are not bundled.
 | `0df4ff61a32d` | Jan van Huysum, Bouquet of Spring Flowers in a Terracotta Vase, 1720s, NGA 155543 | Jan van Huysum | [commons](81458768) |
 | `0c9faa1d575a` | Trouillebert Violets Schuler Auktionen 2025 | Musicartgeek | [commons](180852824) |
 | `6d5ff607d2d4` | White apple blossom at the Wincheap Orchards | Digihum | [commons](177357597) |
-| `7e42f9ab1efe` | Primroses | Kubo Shunman | [Art Institute of Chicago](https://www.artic.edu/artworks/81369) |
+| `17216dce9a38` | Mimosa Pudica Linn-Flower | Manuspanicker | [commons](31761461) |
 | `d71f61f105a5` | Autumn Maples with Poem Slips | Tosa Mitsuoki | [Art Institute of Chicago](https://www.artic.edu/artworks/127644) |
 | `634eacacb1b9` | Modest flower jar (Unsplash) | Autumn Mott autumnmott | [commons](61810906) |
 | `e80fd8a27537` | Aster ageratoides Turcz. | Dinkum | [commons](21345036) |
-| `b0e6128ac16c` | Queen's Floral Needle Box Set, also called Ten Bouquets | George Baxter | [Art Institute of Chicago](https://www.artic.edu/artworks/128209) |
 | `958ccc236184` | Kagarawal nomadic primary school 01 | M. A Matawalle | [commons](142170666) |
-| `42bc59325cf3` | Two Saints and Two Bishops in a Historiated Initial "E" from a Choir Book | Sienese School | [Art Institute of Chicago](https://www.artic.edu/artworks/80906) |
 | `49b70873dbe6` | OMG Dahlia, Annual Dahlia Festival at Swan Island, Dahlias in Canby, Oregon (2019) | Angwinar | [commons](191985995) |
+| `ecb94d2b94e2` | Repin bouquet | Ilya Repin | [commons](138987) |
+| `f0d1a9b433b0` | Book on summer gardening (1895) (20213912619) | Bell, J. J;
+J.J. Bell (Firm);
+
+Henry G. Gilbert Nursery and Seed Trade Catalog C | [commons](42214326) |
 | `2f5aca2bd387` | Autumn Mott 2015-10-10 (Unsplash) | Autumn Mott autumnmott | [commons](61777320) |
 | `ca720e937c68` | Customs House at Varengeville by Claude Monet, San Diego Museum of Art | Wmpearl | [commons](19598264) |
 | `7a76c5302d76` | Landscape with Cottages | John Constable | [Art Institute of Chicago](https://www.artic.edu/artworks/49651) |
@@ -84,46 +92,46 @@ fields travel in the manifest for the pictures that are not bundled.
 | `84c9b176008a` | Édouard Vuillard, Mme Vuillard Sewing by the Window, rue Truffaut, ca. 1899 | Édouard Vuillard | [commons](30062712) |
 | `79a45787b093` | Interior with clematis, by Anna Ancher, with frame | Anna Ancher | [commons](44159824) |
 | `b3b5bbb7d7c2` | Kitchen Entrance, Log Cabin Association Elementary School, Barkers Creek, NC (46596657562) | Warren LeMay from Cincinnati, OH, United States | [commons](77953268) |
-| `f90573c6a08e` | The Hearth, plate eight from Landscapes and Interiors | Édouard Jean Vuillard | [Art Institute of Chicago](https://www.artic.edu/artworks/22737) |
 | `1eeaeb13d012` | Hilton Garden Inn overlooking Northeast Delta Dental Stadium | Waz8 | [commons](50811428) |
+| `2f36b27fbf0b` | Laptop and lamp on table (Unsplash) | Tatiana Lapina veila | [commons](61739710) |
 | `210b93f977f0` | Stowing Sail | Winslow Homer | [Art Institute of Chicago](https://www.artic.edu/artworks/16831) |
 | `5f34a6ebdb86` | Sea View, Calm Weather (Vue de mer, temps calme) | Édouard Manet | [Art Institute of Chicago](https://www.artic.edu/artworks/81535) |
 | `55d25e2ef984` | Russian Sail Ship, from the set of eight Pictures of Foreign Ships | Unknown Artist | [Art Institute of Chicago](https://www.artic.edu/artworks/14931) |
 | `91fc44bb6c48` | Drentwett White Eagle of Poland (detail) 02 | Abraham Drentwett II | [commons](33544984) |
-| `4eb6154648be` | Landscape with Rock and Fortress | Domenico Gargiuli (Micco Spadaro) | [Art Institute of Chicago](https://www.artic.edu/artworks/8097) |
-| `c8a43c4f92fa` | The Dark Mountain | Marsden Hartley | [Art Institute of Chicago](https://www.artic.edu/artworks/65908) |
 | `f88ec4dae83c` | Buffon's plane tree winter MNHN | Jebulon | [commons](14517710) |
-| `5add50ff3c28` | Friar Pedro Binds El Maragato with a Rope | Francisco José de Goya y Lucientes | [Art Institute of Chicago](https://www.artic.edu/artworks/16365) |
+| `b35b13102800` | How to handle and educate vicious horses (1906) (14781375731) | Internet Archive Book Images | [commons](43251530) |
+| `4d5490ed93c0` | Green Flag West 11-08 | Senior Airman Brett Clashman | [commons](15600632) |
+| `27b176cb4de9` | Returning Sails of the Towel Rack (Tenugui-kake no kihan), from the series "Eight Views of the Parlor (Zashiki hakkei)" | Suzuki Harunobu | [Art Institute of Chicago](https://www.artic.edu/artworks/88973) |
 | `ac01d8b6ee7b` | Open book 1 (Unsplash) | Alina Daniker alinadaniker | [commons](62068739) |
 | `9377a20642ce` | BCIT Library (5188775310) | Dennis Sylvester Hurd from Minuwangoda, WP, Sri Lanka, Canada | [commons](87618601) |
-| `8786debf6ccf` | Inkwell | Ancient Roman | [Art Institute of Chicago](https://www.artic.edu/artworks/119257) |
+| `d65e3c3a2e81` | Inkwell | Whitefriars Glasshouse | [Art Institute of Chicago](https://www.artic.edu/artworks/109525) |
 | `70f7d7950ad2` | Moscow State University Main Building Star | Kirill Tsukanov | [commons](22277278) |
-| `6ec4f54ece05` | Poet Crowned with Laurel | Raphael | [Art Institute of Chicago](https://www.artic.edu/artworks/85389) |
-| `c8c08b2a8d75` | Panel (Map) | — | [Art Institute of Chicago](https://www.artic.edu/artworks/23436) |
-| `b15c91d445cf` | Pair of Vases (Vases à Pied de Globe) | Manufacture nationale de Sèvres | [Art Institute of Chicago](https://www.artic.edu/artworks/93991) |
 | `2776b5c867ea` | Florenville, front cover, Cosyn Guides, First half 20 the Century, Contemporary Printed Books Departement of the Royal Library of Belgium (KBR) | Maurice Cosyn | [commons](115122648) |
+| `7d6f016cef40` | Pegasus Library Interior Oulu 20141216 | Estormiz | [commons](37326962) |
+| `705daa125f7b` | Liège, front cover, Cosyn Guides, first half of the 20th Century, Contemporary Printed Books Departement of the Royal Library of Belgium (KBR) | Maurice Cosyn | [commons](115122827) |
+| `22a37d6650c4` | Uppsala Library (Unsplash) | Aleksi Tappura a | [commons](61803181) |
 | `006ab6a9de08` | The Wedding of Peleus and Thetis | Peter Paul Rubens | [Art Institute of Chicago](https://www.artic.edu/artworks/59956) |
 | `9e99c248fe3a` | LWL Museum für Kunst und Kultur-Ludger tom Ring II (Umkreis)-Küchenstück mit Kalbskopf und Hochzeit zu Kana DSC5624 | Ludger Tom Ring the Younger | [commons](98726947) |
 | `b82426a00a1b` | Josiah Johnson Hawes - A Bride and Her Bridesmaids - 1999.171 - Cleveland Museum of Art | Josiah Johnson Hawes | [commons](77780122) |
-| `861da3feec2b` | Cherry Blossoms in Full Bloom at Arashiyama (Arashiyama manka), from the series "Famous Places in Kyoto (Kyoto meisho no uchi)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/25333) |
 | `7f13f1bf6ad6` | El Yunque National Forest white garland-lily | TomWrennSloan | [commons](156067856) |
 | `5bf55e439c61` | Spotted Dove from Dum Dum | Soudgm | [commons](162896155) |
-| `cfb27cf2af4c` | The Wedding at Cana | Giuseppe Maria Crespi | [Art Institute of Chicago](https://www.artic.edu/artworks/2166) |
-| `4bbe91bdccdc` | LWL Museum für Kunst und Kultur-Ludger tom Ring II (Umkreis)-Küchenstück mit Kalbskopf und Hochzeit zu Kana-Detail DSC5625 | Ludger Tom Ring the Younger | [commons](98726998) |
+| `04b7b2ffda79` | Orange flower in garden | Boranzohn | [commons](25003234) |
+| `824a3a949e71` | Azaleas Orange Blossoms | Alabama Extension | [commons](102660155) |
+| `6d797a1bd664` | Hoverfly sitting on orange Calendula blossom | Christof Schoech | [commons](108528423) |
 | `d5b8999061e3` | Flag of the United Kingdom and Ireland with laurel wreath | Lakrits | [commons](33961938) |
 | `f550d2af6679` | Large Hanging with Crown and Escutcheon | — | [Art Institute of Chicago](https://www.artic.edu/artworks/152180) |
 | `19c3b9e59af9` | Ear Ornaments | Tiwanaku | [Art Institute of Chicago](https://www.artic.edu/artworks/180921) |
 | `5dee40598454` | Table Centerpiece | D.R. Gastecloux | [Art Institute of Chicago](https://www.artic.edu/artworks/222827) |
 | `7b77f0bb726c` | Tulip Ornament Gold L | unknown: antique ornament in the shape of tulip | [commons](17118038) |
-| `6f54af06573a` | Maharana Bhim Singh in Procession | Ghasi | [Art Institute of Chicago](https://www.artic.edu/artworks/49195) |
+| `dc0e8ca5f764` | Chinese Wedding Procession 4 | Gary Todd | [commons](99308611) |
 | `b5b366d8488b` | Arch Titus, Forum Romanum, Rome, Italy | Jebulon | [commons](29534538) |
-| `61d6d9c412d7` | Cigar Ribbon Quilt | — | [Art Institute of Chicago](https://www.artic.edu/artworks/148872) |
+| `183179690be1` | Chandelier at Charles R. McNeill Library | Willthacheerleader18 | [commons](197627253) |
 | `a478f5cf22be` | Four-leaf clover, from the Novelties series (N228, Type 4) issued by Kinney Bros. MET DPB874847 | Kinney Brothers Tobacco Company | [commons](65152097) |
 | `d25522ce960b` | Group of Horseshoe crabs | PookieFugglestein | [commons](31086664) |
 | `c13f5494f485` | Polychrome Bowl with Geometric Star Motif on Interior and Interloking Scroll on Exterio | Cibola | [Art Institute of Chicago](https://www.artic.edu/artworks/52142) |
 | `e15fa6c02086` | Sunrise (142816959) | Yılmaz Kilim | [commons](73810137) |
 | `c18de5776fab` | Mountain and Landscape | Shibata Zeshin | [Art Institute of Chicago](https://www.artic.edu/artworks/49322) |
-| `9ed3c179c209` | Mishima: Morning Mist (Mishima, asagiri), from the series "Fifty-three Stations of the Tokaido Road (Tokaido gojusan tsugi no uchi)," also known as the Hoeido Tokaido | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/10926) |
+| `20c759cf96d1` | Grass by a road in evening haze 1 | W.carter | [commons](74264134) |
 | `937c0d7b375c` | Lighthouse, harbor Saint-Martin-de-Ré, Ré island, Charente-Maritime, France | Jebulon | [commons](43704187) |
 | `ccfa0f57a9f8` | Ship paintings | — | [Art Institute of Chicago](https://www.artic.edu/artworks/246744) |
 | `77639268c44e` | Rainy window and table book (Unsplash) | Rosalind Chang rosalindjchang | [commons](61659046) |
@@ -133,7 +141,7 @@ fields travel in the manifest for the pictures that are not bundled.
 | `ef76c17ec475` | Arrival of the Normandy Train, Gare Saint-Lazare | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/16571) |
 | `ba137a539709` | Florida I75sb VMS Distance road sign CR234 9 | Michael Rivera | [commons](168673300) |
 | `ca7cf26a803e` | NLEX Distance Sign - Paso de Blas Valenzuela 2, NLEX Harbor Link 4, Balintawak 8 | PengualaHeadphones | [commons](168486735) |
-| `d082b8b6842d` | The Love Letter | Suzuki Harunobu | [Art Institute of Chicago](https://www.artic.edu/artworks/11029) |
+| `78bf3d085840` | Niagara Falls, Suspension Bridge, interior view (NYPL b11708199-G91F070 058F) | Scan by NYPL | [commons](50152705) |
 | `5351b2351304` | Bouquet of origami flower - Carambola | Dodoïste | [commons](19104647) |
 | `3dfe13c47cf6` | Flower arrangement | MarkBuckawicki | [commons](30487461) |
 | `dc3a8199c797` | Magnolias on Light Blue Velvet Cloth | Martin Johnson Heade | [Art Institute of Chicago](https://www.artic.edu/artworks/100829) |
@@ -155,25 +163,25 @@ fields travel in the manifest for the pictures that are not bundled.
 | `6a7a96a077d1` | Fragrant lilac by a windowsill (Unsplash) | Juja Han juja_han | [commons](61808938) |
 | `d2a80a408991` | Wildflowers in vase, lemon cake with raspberries, Ehrenbach | Gerda Arendt | [commons](148318972) |
 | `76eb2f5dae83` | Still Life with Flowers and Fruit by Claude Monet, 1869, Getty Center | Wmpearl | [commons](18933340) |
-| `c001003aba99` | Roses in a Vase | Pierre-Auguste Renoir (French, 1841–1919) | [Cleveland Museum of Art](https://www.clevelandart.org/art/120286) |
-| `ddb24784aa5d` | Fireworks at Ryogoku (Ryogoku hanabi), from the series "One Hundred Famous Views of Edo (Meisho Edo hyakkei)" | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/25601) |
-| `45e426beee48` | Illustrated Book of Flowers and Butterflies | — | [Cleveland Museum of Art](https://www.clevelandart.org/art/103824) |
+| `ca94ebbe57db` | Célébration du Festival MASÔVA 05 | Lalinah | [commons](166551964) |
+| `a3b234e6da57` | Fireworks in Sevierville, Tennessee on 4th of July - 8 | Roc0ast3r | [commons](150576634) |
+| `20eacafb72eb` | Sign of Futai Village Duanwu Festival Carnival on Tent 20150613 | 玄史生 | [commons](41025158) |
 | `7f24ad17c74d` | The Song of the Lark | Jules Breton | [Art Institute of Chicago](https://www.artic.edu/artworks/94841) |
 | `5a7190cb431a` | FrozenTireMarks@Sunrise(byPeterBesser) | Peter Besser | [commons](31421870) |
 | `48bba11c5c80` | Scenes of Witchcraft: Morning | Salvator Rosa (Italian, 1615–1673) | [Cleveland Museum of Art](https://www.clevelandart.org/art/149105) |
 | `7ca203c62581` | The Petite Creuse River | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/81546) |
 | `0cc42a3e950d` | Tea House Beside the Kamo River in Kyoto | Nishimura Shigenaga (Japanese, 1697(?)-1756) | [Cleveland Museum of Art](https://www.clevelandart.org/art/101853) |
 | `2c6c8b9459c4` | Two Cows and a Young Bull beside a Fence in a Meadow | Paulus Potter | [Art Institute of Chicago](https://www.artic.edu/artworks/146953) |
-| `d8e0bfb683f2` | Spring | Jean-Baptiste Pater (French, 1695–1736) | [Cleveland Museum of Art](https://www.clevelandart.org/art/128877) |
-| `173829c6ac36` | The Sunlight | Ture Nikolaus Cederström (Swedish, 1843–1924) | [Cleveland Museum of Art](https://www.clevelandart.org/art/159504) |
+| `093a920d3a23` | John Frederick Peto, An English Breakfast, c. 1890s, NGA 110276 | John Frederick Peto | [commons](81326665) |
+| `c6ede62bafed` | Opening in the Spring (Unsplash) | Daniel Chen d_che | [commons](62228478) |
 | `263ce91bdea7` | Moonrise | George Inness | [Art Institute of Chicago](https://www.artic.edu/artworks/64754) |
 | `d08e69bac1eb` | A Walk at Dusk by Caspar David Friedrich, Getty Center | Caspar David Friedrich | [commons](18978219) |
 | `7777235e7b8f` | Night (218547649) | Luigi Morrone | [commons](71410297) |
 | `a70e69d9b8ac` | Prout's Neck, Evening | Winslow Homer | [Art Institute of Chicago](https://www.artic.edu/artworks/16821) |
 | `2fbf1c8f0262` | Cows in a Pond at Sunset | Sanford Robinson Gifford | [Art Institute of Chicago](https://www.artic.edu/artworks/72398) |
+| `cecdc13e5b31` | Bronxville Owl House | Tomwsulcer | [commons](14857742) |
 | `54b2346ecf88` | Once in a Blue Moon 2016 | Dylan O'Donnell, deography.com | [commons](62839862) |
-| `6d271bf471a6` | Twilight | Gifford Beal (American, 1879–1956) | [Cleveland Museum of Art](https://www.clevelandart.org/art/124805) |
-| `8de0d2bd6468` | Another Beautiful Night (183338603) | Israel Chaidez | [commons](71853945) |
+| `b2dbe92be9b9` | Caspar David Friedrich - A Walk at Dusk | Caspar David Friedrich | [commons](23737882) |
 | `78628e330726` | The Bridge (221120405) | Erwin Bosman | [commons](71407396) |
 | `43927c462a61` | Prater Landscape | Ferdinand Georg Waldmüller (Austrian, 1793–1865) | [Cleveland Museum of Art](https://www.clevelandart.org/art/151298) |
 | `0e0fc643b07d` | Stacks of Wheat (End of Summer) | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/64818) |
