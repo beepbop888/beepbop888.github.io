@@ -24,8 +24,7 @@ fields travel in the manifest for the pictures that are not bundled.
 | `f9c1382818ad` | Testing Eggs. Interior of a Kitchen (Pehr Hilleström d.ä.) - Nationalmuseum - 18113 | Pehr Hilleström | [commons](52111237) |
 | `0c24aefa39c2` | Fragrant chamomile (Unsplash) | chaithanya krishnan chaithanya_krishnan | [commons](61808230) |
 | `4811af234546` | Matricaria chamomilla flower under a microscope 2 | Gustamons | [commons](129079825) |
-| `139dc61267ce` | Landscape: Window Overlooking the Woods | Édouard Jean Vuillard | [Art Institute of Chicago](https://www.artic.edu/artworks/109926) |
-| `211b2eeae685` | Afternoon Tea | Jean-François Rafaëlli | [Art Institute of Chicago](https://www.artic.edu/artworks/186425) |
+| `3f67bf8ed88b` | Window gardening - devoted specially to the culture of flowers and ornamental plants for indoor use and parlor decoration (1872) (14595440218) | Internet Archive Book Images | [commons](43190391) |
 | `abfa3a3ea61f` | MD.C.C - Birds of the Garden of the Ethnographic museum in Chișinău - may 2017 - 01 | Gikü | [commons](59777382) |
 | `7682340a4a7a` | Spring 1899 (1899) (20553451135) | Innisfallen Greenhouses;
 Charles A. Reeser Co;
@@ -34,6 +33,7 @@ Henry G. Gilbert Nursery and See | [commons](42346770) |
 | `4d22bf747b01` | Through the year with birds and poets (poems); (1900) (14564786817) | BGD
 
 Internet Archive Book Images | [commons](43731934) |
+| `211b2eeae685` | Afternoon Tea | Jean-François Rafaëlli | [Art Institute of Chicago](https://www.artic.edu/artworks/186425) |
 | `aff480909ba1` | The Interior of the Palm House on the Pfaueninsel Near Potsdam | Carl Blechen | [Art Institute of Chicago](https://www.artic.edu/artworks/144969) |
 | `4b418977e7a5` | Fog over winter hillside (Unsplash) | Alberto Restifo albertorestifo | [commons](58805313) |
 | `5bc1b09c5005` | Fir trees in the cold snow (Unsplash) | Dan Paul idantero | [commons](62217638) |
@@ -44,37 +44,37 @@ Internet Archive Book Images | [commons](43731934) |
 | `fd5f0eb5a39b` | 00942-Meißen-1899-Frauenkirche und Markt mit Pferdeschlitten im Winter-Brück & Sohn Kunstverlag | Brück &amp; Sohn Kunstverlag Meißen | [commons](52466148) |
 | `4a28a21de023` | Bruno Liljefors, Snow covered fir tree (c. 1920) | Gotogo | [commons](183113438) |
 | `06a89bb39007` | The Young Mother by Auguste Rodin | 14GTR | [commons](143640335) |
-| `5aa3de618be8` | A Family Meal | Evert Pieters | [Art Institute of Chicago](https://www.artic.edu/artworks/65847) |
+| `7e3f7019ead5` | Adam Buck - The Artist and his Family - B1977.14.6109 - Yale Center for British Art | Adam Buck | [commons](113235322) |
 | `1de96d737e5a` | Interior of FamilyMart Wuri Chengling Store 20150606 | 玄史生 | [commons](40918835) |
 | `9c355901cc2b` | The Bouquet (Unsplash) | Sweet Ice Cream Photography sweeticecreamphotography | [commons](61709818) |
 | `8913b8084017` | Peony vase (Unsplash) | Alexandra Seinet alexseinet | [commons](61811544) |
 | `34fb3cfa58b5` | A mother of the Meitei domestic cat breed (Meitei house cat variety) and her kitten in Imphal 03 | Haoreima | [commons](142917063) |
-| `6628f0722d30` | The Holy Family with Saints Elizabeth and John the Baptist | Peter Paul Rubens | [Art Institute of Chicago](https://www.artic.edu/artworks/27310) |
+| `0220017a54c7` | Holy Family in an Interior MET DP802841 | AnonymousUnknown author | [commons](60841801) |
 | `cc64b2437578` | Interior of FamilyMart Sendong Store 20161019 | 玄史生 | [commons](52472593) |
 | `753aa397ca78` | Buden monument | Рыцарь поля | [commons](15206875) |
 | `e740dbbdf430` | Nijmegen Titushof, World Peace Flame | Havang(nl) | [commons](15604622) |
 | `99fd360c82e7` | 2009-365-84 Peach Blossoms (3386113283) | cogdogblog | [commons](57003356) |
-| `e18ffe3c1684` | Flowers in an Urn Decorated with Putti, on a Plinth | Jan van Huysum | [Art Institute of Chicago](https://www.artic.edu/artworks/149035) |
+| `63de534d73a6` | Campanulaceae (flowers) | Martin Ehrensberger | [commons](71264009) |
 | `5a02c8dc8308` | It is May But - (3537514258) | cogdogblog | [commons](57022576) |
 | `4f7fe1542cc3` | Well yes, there is both a start and an end in Spring. Why would I focus on the lack of one to emphasize the other? Here is the end of a flower I missed while I was gone, but it hints at blossoming me (3537515758) | cogdogblog | [commons](57022613) |
-| `5c251243b4f4` | Bird and wild carnation | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/33661) |
+| `fff0f0ef0c71` | Vase-with-White-and-Red-Carnations F236 | Vincent van Gogh | [commons](15269304) |
 | `fb1339bea97c` | Field-of-poppies-364163 | tuku (original picture), modification: Mielon | [commons](34759976) |
 | `9a409bc44548` | No stork (50381984941) | Alex  Hoekerd from Nunspeet, The Netherlands | [commons](94906109) |
 | `69957374a868` | Rhododendron 'Pink Cherub' - Hillier Gardens - Romsey, Hampshire, England - DSC04877 | Daderot | [commons](58049204) |
-| `8882764bada8` | Yamauba with Kintaro Holding a Toy Mask | Kitagawa Utamaro | [Art Institute of Chicago](https://www.artic.edu/artworks/3568) |
-| `3adfacca014d` | The Infant Krishna Spirited Away by Vasudev, from a copy of the Dispersed Bhagavat Purana | — | [Art Institute of Chicago](https://www.artic.edu/artworks/131908) |
 | `f3f0c866bd11` | Keinänen In the cradle | Sigfrid Keinänen | [commons](38085051) |
 | `125d26fc18f8` | White storks in Dutch nest | Apdency | [commons](15287105) |
 | `daf054838cf0` | Cherub Head - YDEA - 6682 | anonymous | [commons](104838532) |
 | `eb0910e9bc6e` | Pappoose in Indian cradle (NYPL b11708187-G91F057 353F) | Scan by NYPL | [commons](50136961) |
+| `8882764bada8` | Yamauba with Kintaro Holding a Toy Mask | Kitagawa Utamaro | [Art Institute of Chicago](https://www.artic.edu/artworks/3568) |
+| `3adfacca014d` | The Infant Krishna Spirited Away by Vasudev, from a copy of the Dispersed Bhagavat Purana | — | [Art Institute of Chicago](https://www.artic.edu/artworks/131908) |
 | `f302ace256b7` | Mimosa Pudica | Hrushikesh | [commons](13653936) |
-| `76b9ac246db0` | Japanese white-eye on flowering branch | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/19018) |
-| `aaccda97b9cc` | The Vase of Tulips | Paul Cezanne | [Art Institute of Chicago](https://www.artic.edu/artworks/14561) |
+| `962536b70c64` | Pink Tulip. (9720064375) | Bernard Spragg. NZ from Christchurch, New Zealand | [commons](103439356) |
 | `0df4ff61a32d` | Jan van Huysum, Bouquet of Spring Flowers in a Terracotta Vase, 1720s, NGA 155543 | Jan van Huysum | [commons](81458768) |
-| `e17097c12016` | Flower Vase | Manufacture nationale de Sèvres | [Art Institute of Chicago](https://www.artic.edu/artworks/135725) |
+| `3198286dd618` | Acacia dealbata flowers | Pavithra mallan | [commons](141169430) |
 | `0c9faa1d575a` | Trouillebert Violets Schuler Auktionen 2025 | Musicartgeek | [commons](180852824) |
 | `6d5ff607d2d4` | White apple blossom at the Wincheap Orchards | Digihum | [commons](177357597) |
 | `17216dce9a38` | Mimosa Pudica Linn-Flower | Manuspanicker | [commons](31761461) |
+| `76b9ac246db0` | Japanese white-eye on flowering branch | Utagawa Hiroshige | [Art Institute of Chicago](https://www.artic.edu/artworks/19018) |
 | `2f5aca2bd387` | Autumn Mott 2015-10-10 (Unsplash) | Autumn Mott autumnmott | [commons](61777320) |
 | `634eacacb1b9` | Modest flower jar (Unsplash) | Autumn Mott autumnmott | [commons](61810906) |
 | `e80fd8a27537` | Aster ageratoides Turcz. | Dinkum | [commons](21345036) |
@@ -85,7 +85,7 @@ Internet Archive Book Images | [commons](43731934) |
 J.J. Bell (Firm);
 
 Henry G. Gilbert Nursery and Seed Trade Catalog C | [commons](42214326) |
-| `d71f61f105a5` | Autumn Maples with Poem Slips | Tosa Mitsuoki | [Art Institute of Chicago](https://www.artic.edu/artworks/127644) |
+| `95af4bab05d1` | Vibert Jean Georges Autumn Flowers | Jehan Georges Vibert | [commons](3193461) |
 | `ca720e937c68` | Customs House at Varengeville by Claude Monet, San Diego Museum of Art | Wmpearl | [commons](19598264) |
 | `132106218367` | William Henry Pyne - Cottage and Foot Bridge - B1977.14.5110 - Yale Center for British Art | William Henry Pyne | [commons](113201351) |
 | `84c9b176008a` | Édouard Vuillard, Mme Vuillard Sewing by the Window, rue Truffaut, ca. 1899 | Édouard Vuillard | [commons](30062712) |
@@ -96,20 +96,20 @@ Henry G. Gilbert Nursery and Seed Trade Catalog C | [commons](42214326) |
 | `314486cdfd92` | The Watermill with the Great Red Roof | Meindert Hobbema | [Art Institute of Chicago](https://www.artic.edu/artworks/869) |
 | `10d06912df15` | Sunrise on Vereda del Lago and Eagle Austin Ship in Maracaibo lake | Wilfredor | [commons](24956079) |
 | `91fc44bb6c48` | Drentwett White Eagle of Poland (detail) 02 | Abraham Drentwett II | [commons](33544984) |
-| `210b93f977f0` | Stowing Sail | Winslow Homer | [Art Institute of Chicago](https://www.artic.edu/artworks/16831) |
-| `5f34a6ebdb86` | Sea View, Calm Weather (Vue de mer, temps calme) | Édouard Manet | [Art Institute of Chicago](https://www.artic.edu/artworks/81535) |
+| `947be8159b4e` | The Harwich Force at Sea Art.IWMART1302 | Philip Connard | [commons](30947247) |
 | `f88ec4dae83c` | Buffon's plane tree winter MNHN | Jebulon | [commons](14517710) |
 | `b35b13102800` | How to handle and educate vicious horses (1906) (14781375731) | Internet Archive Book Images | [commons](43251530) |
 | `4d5490ed93c0` | Green Flag West 11-08 | Senior Airman Brett Clashman | [commons](15600632) |
 | `663eee6840ff` | Ships from Banda and Ternate de Bry | Johann Theodor de Bry (1560-1623) and Johann Israel de Bry (1565-1609) | [commons](88716462) |
+| `210b93f977f0` | Stowing Sail | Winslow Homer | [Art Institute of Chicago](https://www.artic.edu/artworks/16831) |
 | `ac01d8b6ee7b` | Open book 1 (Unsplash) | Alina Daniker alinadaniker | [commons](62068739) |
 | `9377a20642ce` | BCIT Library (5188775310) | Dennis Sylvester Hurd from Minuwangoda, WP, Sri Lanka, Canada | [commons](87618601) |
 | `70f7d7950ad2` | Moscow State University Main Building Star | Kirill Tsukanov | [commons](22277278) |
-| `d65e3c3a2e81` | Inkwell | Whitefriars Glasshouse | [Art Institute of Chicago](https://www.artic.edu/artworks/109525) |
 | `2776b5c867ea` | Florenville, front cover, Cosyn Guides, First half 20 the Century, Contemporary Printed Books Departement of the Royal Library of Belgium (KBR) | Maurice Cosyn | [commons](115122648) |
 | `7d6f016cef40` | Pegasus Library Interior Oulu 20141216 | Estormiz | [commons](37326962) |
 | `da360238e497` | Rutgers University CoRE Building | Tomwsulcer | [commons](25483269) |
 | `22a37d6650c4` | Uppsala Library (Unsplash) | Aleksi Tappura a | [commons](61803181) |
+| `d65e3c3a2e81` | Inkwell | Whitefriars Glasshouse | [Art Institute of Chicago](https://www.artic.edu/artworks/109525) |
 | `9e99c248fe3a` | LWL Museum für Kunst und Kultur-Ludger tom Ring II (Umkreis)-Küchenstück mit Kalbskopf und Hochzeit zu Kana DSC5624 | Ludger Tom Ring the Younger | [commons](98726947) |
 | `b82426a00a1b` | Josiah Johnson Hawes - A Bride and Her Bridesmaids - 1999.171 - Cleveland Museum of Art | Josiah Johnson Hawes | [commons](77780122) |
 | `427036eadbae` | Preparation of a Bukharian Jewish bride before the wedding ceremony | Unknown authorUnknown author | [commons](149227520) |
@@ -119,24 +119,24 @@ Henry G. Gilbert Nursery and Seed Trade Catalog C | [commons](42214326) |
 | `824a3a949e71` | Azaleas Orange Blossoms | Alabama Extension | [commons](102660155) |
 | `6d797a1bd664` | Hoverfly sitting on orange Calendula blossom | Christof Schoech | [commons](108528423) |
 | `d5b8999061e3` | Flag of the United Kingdom and Ireland with laurel wreath | Lakrits | [commons](33961938) |
-| `f550d2af6679` | Large Hanging with Crown and Escutcheon | — | [Art Institute of Chicago](https://www.artic.edu/artworks/152180) |
 | `7b77f0bb726c` | Tulip Ornament Gold L | unknown: antique ornament in the shape of tulip | [commons](17118038) |
 | `dc0e8ca5f764` | Chinese Wedding Procession 4 | Gary Todd | [commons](99308611) |
 | `b5b366d8488b` | Arch Titus, Forum Romanum, Rome, Italy | Jebulon | [commons](29534538) |
 | `183179690be1` | Chandelier at Charles R. McNeill Library | Willthacheerleader18 | [commons](197627253) |
 | `8d90e6dce749` | Central Criminal Court of England and Wales (The Old Bailey) The Grand Hall | Michael D Beckwith | [commons](109359349) |
+| `f550d2af6679` | Large Hanging with Crown and Escutcheon | — | [Art Institute of Chicago](https://www.artic.edu/artworks/152180) |
 | `19c3b9e59af9` | Ear Ornaments | Tiwanaku | [Art Institute of Chicago](https://www.artic.edu/artworks/180921) |
 | `a478f5cf22be` | Four-leaf clover, from the Novelties series (N228, Type 4) issued by Kinney Bros. MET DPB874847 | Kinney Brothers Tobacco Company | [commons](65152097) |
 | `d25522ce960b` | Group of Horseshoe crabs | PookieFugglestein | [commons](31086664) |
-| `c13f5494f485` | Polychrome Bowl with Geometric Star Motif on Interior and Interloking Scroll on Exterio | Cibola | [Art Institute of Chicago](https://www.artic.edu/artworks/52142) |
 | `e15fa6c02086` | Sunrise (142816959) | Yılmaz Kilim | [commons](73810137) |
-| `c18de5776fab` | Mountain and Landscape | Shibata Zeshin | [Art Institute of Chicago](https://www.artic.edu/artworks/49322) |
 | `20c759cf96d1` | Grass by a road in evening haze 1 | W.carter | [commons](74264134) |
 | `937c0d7b375c` | Lighthouse, harbor Saint-Martin-de-Ré, Ré island, Charente-Maritime, France | Jebulon | [commons](43704187) |
+| `c13f5494f485` | Polychrome Bowl with Geometric Star Motif on Interior and Interloking Scroll on Exterio | Cibola | [Art Institute of Chicago](https://www.artic.edu/artworks/52142) |
+| `c18de5776fab` | Mountain and Landscape | Shibata Zeshin | [Art Institute of Chicago](https://www.artic.edu/artworks/49322) |
 | `ccfa0f57a9f8` | Ship paintings | — | [Art Institute of Chicago](https://www.artic.edu/artworks/246744) |
 | `77639268c44e` | Rainy window and table book (Unsplash) | Rosalind Chang rosalindjchang | [commons](61659046) |
 | `38eff3dc9cc3` | Rain, public transport, Miziara 2016 | Pedro Gabriel Miziara pgmiziara | [commons](61741143) |
-| `ef76c17ec475` | Arrival of the Normandy Train, Gare Saint-Lazare | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/16571) |
+| `e47c70aa878f` | A long distance train at Vasai Road | Historical Trains | [commons](171454138) |
 | `a939ee5d26a2` | This old Grand River Transit Terminal is being closed, in favour of a new hub, near the ION Central Station... (48149262166) | booledozer | [commons](80025743) |
 | `f79cbf35b55f` | Desk set, designed by Nikolai Michajlowitsch Sujetin, Staatliche Porzellanmanufaktur, Petrograd USSR, 1923, hand-painted porcelain - Museum für Angewandte Kunst Köln - Cologne, Germany - DSC09573 | Daderot | [commons](53243208) |
 | `ba137a539709` | Florida I75sb VMS Distance road sign CR234 9 | Michael Rivera | [commons](168673300) |
@@ -144,12 +144,12 @@ Henry G. Gilbert Nursery and Seed Trade Catalog C | [commons](42214326) |
 | `78bf3d085840` | Niagara Falls, Suspension Bridge, interior view (NYPL b11708199-G91F070 058F) | Scan by NYPL | [commons](50152705) |
 | `5351b2351304` | Bouquet of origami flower - Carambola | Dodoïste | [commons](19104647) |
 | `3dfe13c47cf6` | Flower arrangement | MarkBuckawicki | [commons](30487461) |
-| `dc3a8199c797` | Magnolias on Light Blue Velvet Cloth | Martin Johnson Heade | [Art Institute of Chicago](https://www.artic.edu/artworks/100829) |
 | `0bb046e2b94a` | Bouquet of wildflowers, Ehrenbach | Gerda Arendt | [commons](175798650) |
-| `2f280498e9b9` | Apple Blossoms | Martin Johnson Heade (American, 1819–1904) | [Cleveland Museum of Art](https://www.clevelandart.org/art/173480) |
+| `0c71a770727a` | Blossom over a wet street (Unsplash) | Jake weirick weirick | [commons](61755682) |
 | `8ce38627dab6` | Roses du jardin de Bagatelle 2 | Dinkum | [commons](21350076) |
 | `746ef990ff4f` | Tulips, 2020-04-15, Beechview | Cbaile19 | [commons](89217927) |
-| `dfb3bacd4840` | Paulownias and Chrysanthemums | Sakai Hōitsu (Japanese, 1761–1828) | [Cleveland Museum of Art](https://www.clevelandart.org/art/140476) |
+| `23ce42c2b805` | 葛飾北斎画 菊に雀-Sparrows and Chrysanthemums MET DP151594 | Katsushika Hokusai | [commons](58783233) |
+| `dc3a8199c797` | Magnolias on Light Blue Velvet Cloth | Martin Johnson Heade | [Art Institute of Chicago](https://www.artic.edu/artworks/100829) |
 | `20ecadcc7d63` | Fireworks in Kuwait City (24244363641) | www.Pixel.la Free Stock Photos | [commons](51439200) |
 | `d89be88ebd8b` | 2010.01 - 'Photo of Dutch Winter nature', Dutch snow-landscape in the dunes , winter of 2010; Nature photography in the Netherlands by Fons Heijnsbroek, in the public domain; geotagged landscape picture in The Netherlands (27114819613) | Fons Heijnsbroek from Amsterdam, Netherlands | [commons](97254250) |
 | `38dc51f4326b` | Zsar Outlet Village 2023-12-03 (1) | Niera | [commons](141771527) |
@@ -167,13 +167,13 @@ Henry G. Gilbert Nursery and Seed Trade Catalog C | [commons](42214326) |
 | `a3b234e6da57` | Fireworks in Sevierville, Tennessee on 4th of July - 8 | Roc0ast3r | [commons](150576634) |
 | `20eacafb72eb` | Sign of Futai Village Duanwu Festival Carnival on Tent 20150613 | 玄史生 | [commons](41025158) |
 | `5a7190cb431a` | FrozenTireMarks@Sunrise(byPeterBesser) | Peter Besser | [commons](31421870) |
-| `7f24ad17c74d` | The Song of the Lark | Jules Breton | [Art Institute of Chicago](https://www.artic.edu/artworks/94841) |
 | `e1d01d95aa93` | 1850Mancatian Bridge Pasig Potrero River Porac, Pampanga 19 | Judgefloro | [commons](76379609) |
 | `093a920d3a23` | John Frederick Peto, An English Breakfast, c. 1890s, NGA 110276 | John Frederick Peto | [commons](81326665) |
 | `ff019be702af` | Morning - Isabel Codrington - 26 1934 | Isabel Codrington | [commons](146151762) |
 | `c6ede62bafed` | Opening in the Spring (Unsplash) | Daniel Chen d_che | [commons](62228478) |
 | `c06a4a97a1e6` | The Path to the Mountain (FLUX.2 Pro) | VulcanSphere | [commons](179000141) |
 | `a6e7cb2b6641` | Meadow-338211 | By danfador from Pixabay | [commons](104195450) |
+| `7f24ad17c74d` | The Song of the Lark | Jules Breton | [Art Institute of Chicago](https://www.artic.edu/artworks/94841) |
 | `d08e69bac1eb` | A Walk at Dusk by Caspar David Friedrich, Getty Center | Caspar David Friedrich | [commons](18978219) |
 | `54b2346ecf88` | Once in a Blue Moon 2016 | Dylan O'Donnell, deography.com | [commons](62839862) |
 | `7777235e7b8f` | Night (218547649) | Luigi Morrone | [commons](71410297) |
@@ -186,7 +186,7 @@ Henry G. Gilbert Nursery and Seed Trade Catalog C | [commons](42214326) |
 | `d0d369109b7c` | Boat (191593809) | Láng Norbert | [commons](72139248) |
 | `fe2d3a1653a1` | Small river with colourful clouds at sunset in Poland (154746717) | Kamil Sypień | [commons](73673123) |
 | `78ce2d596cbd` | Summer morning in the Swiss Alps | Sternenjaeger | [commons](92791005) |
-| `43927c462a61` | Prater Landscape | Ferdinand Georg Waldmüller (Austrian, 1793–1865) | [Cleveland Museum of Art](https://www.clevelandart.org/art/151298) |
+| `e62199fd9156` | A Panoramic Landscape with a Country Estate MET DP145898 | Philips Koninck | [commons](57670052) |
 | `420413936490` | Stream in NRW Germany 2026 summer | Kaap bij Sneeuw | [commons](192826419) |
 | `be555a6d2637` | Birch forest around the Bruavatnet Narvik 2022-08-21 01 | Leonhard Lenz | [commons](140974323) |
 | `0e0fc643b07d` | Stacks of Wheat (End of Summer) | Claude Monet | [Art Institute of Chicago](https://www.artic.edu/artworks/64818) |
