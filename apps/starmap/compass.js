@@ -128,12 +128,24 @@
     return { ok: state.ok, reason: state.reason, az: state.az, alt: state.alt };
   };
 
-  // Whether it is even worth offering. A desktop mouse has no compass, and
-  // offering the button there is how the greyed-out box got there in the first
-  // place.
+  // Whether it is even worth offering.
+  //
+  // **The obvious check is wrong.** `'ondeviceorientation' in window` is TRUE
+  // in desktop Chrome, which has no compass at all — verified on the published
+  // build, where it happily reported the feature as available on a laptop. The
+  // event existing is not the sensor existing.
+  //
+  // A touch-capable pointer is the honest proxy for "this is a phone or a
+  // tablet, so it plausibly has a magnetometer". If the guess is generous and
+  // no reading ever arrives, the three-second first-fix timeout in
+  // `SkyPointer` says so in words rather than leaving a frozen sky.
   window.skyCompassPossible = function () {
-    return typeof DeviceOrientationEvent !== 'undefined' &&
-        (('ondeviceorientation' in window) ||
-         ('ondeviceorientationabsolute' in window));
+    if (typeof DeviceOrientationEvent === 'undefined') return false;
+    if (!('ondeviceorientation' in window) &&
+        !('ondeviceorientationabsolute' in window)) return false;
+    var touch = (navigator.maxTouchPoints || 0) > 0;
+    var coarse = typeof window.matchMedia === 'function' &&
+        window.matchMedia('(pointer: coarse)').matches;
+    return touch || coarse;
   };
 })();
