@@ -29,6 +29,7 @@
 
   var state = { ok: false, reason: 'не запущено', az: 0, alt: 0 };
   var listening = false;
+  var usingAbsolute = false;
 
   function rad(d) { return d * Math.PI / 180; }
 
@@ -59,6 +60,15 @@
   }
 
   function onOrientation(e) {
+    // A browser may deliver a non-absolute reading through the absolute
+    // channel. Its alpha is measured from an arbitrary start, so using it
+    // points the whole sky at the wrong north rather than merely wobbling.
+    if (usingAbsolute && e.absolute === false &&
+        typeof e.webkitCompassHeading !== 'number') {
+      state.ok = false;
+      state.reason = 'компас не откалиброван — опишите телефоном восьмёрку';
+      return;
+    }
     var alpha = e.alpha;
     // iOS reports true north separately and does not populate alpha usefully.
     if (typeof e.webkitCompassHeading === 'number' &&
@@ -79,13 +89,21 @@
 
   function attach() {
     if (listening) return;
-    // `deviceorientationabsolute` is referenced to true north on Chrome and is
-    // the one to prefer; plain `deviceorientation` is relative on some devices
-    // and is the fallback.
+    // ONE OF THEM, NEVER BOTH.
+    //
+    // `deviceorientationabsolute` is referenced to true north.
+    // `deviceorientation` on Android Chrome is RELATIVE — its alpha starts
+    // from wherever the phone happened to be. Subscribing to both, which the
+    // first version did, means the relative event overwrites the absolute one
+    // between frames and the sky lurches between two different norths several
+    // times a second. That is the "AR mode is very buggy" report.
     if ('ondeviceorientationabsolute' in window) {
       window.addEventListener('deviceorientationabsolute', onOrientation, true);
+      usingAbsolute = true;
+    } else {
+      window.addEventListener('deviceorientation', onOrientation, true);
+      usingAbsolute = false;
     }
-    window.addEventListener('deviceorientation', onOrientation, true);
     listening = true;
   }
 
