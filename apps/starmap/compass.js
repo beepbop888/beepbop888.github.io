@@ -35,6 +35,42 @@
 
   function rad(d) { return d * Math.PI / 180; }
 
+  // Bearing and altitude from the camera axis AND the top of the screen.
+  //
+  // The same construction as `pointedAt` in `models/pointing.dart`, and the
+  // reasoning is written up there in full. In short: a bearing is a direction
+  // flattened onto the ground, and flattening a direction that points nearly
+  // straight up destroys it — so a small wobble becomes a huge swing, which is
+  // exactly what the owner reported. The top of the screen is steady precisely
+  // where the camera axis is not, so it carries the bearing near the zenith and
+  // is ignored near the horizon.
+  //
+  // It is duplicated here rather than shared because the browser never runs the
+  // Dart path: `web_compass.dart` receives a bearing that is already computed.
+  // The Dart copy is the one with the tests; if either changes, change both.
+  function bearingFrom(look, screenUp) {
+    var len = Math.sqrt(look[0] * look[0] + look[1] * look[1] +
+                        look[2] * look[2]) || 1;
+    var lx = look[0] / len, ly = look[1] / len, lz = look[2] / len;
+
+    var east = lx, north = ly;
+    var flat = Math.sqrt(screenUp[0] * screenUp[0] +
+                         screenUp[1] * screenUp[1]);
+    if (flat > 1e-6) {
+      var steep = Math.abs(lz);
+      var sign = lz >= 0 ? -1 : 1;
+      east += (screenUp[0] / flat) * steep * sign;
+      north += (screenUp[1] / flat) * steep * sign;
+    }
+
+    var azimuth = Math.atan2(east, north) * 180 / Math.PI;
+    if (azimuth < 0) azimuth += 360;
+    return {
+      azimuth: azimuth,
+      altitude: Math.asin(Math.max(-1, Math.min(1, lz))) * 180 / Math.PI
+    };
+  }
+
   // alpha/beta/gamma -> where the BACK of the phone points, as a compass
   // bearing from north and an angle above the horizon. This is the standard
   // Z-X'-Y'' intrinsic rotation the spec defines.
@@ -50,15 +86,14 @@
     var y = sA * sG - cA * sB * cG;
     var z = cB * cG;
 
-    // Negate for the back of the phone, then read off bearing and altitude.
-    var ex = -x, ny = -y, up = -z;
-    var len = Math.sqrt(ex * ex + ny * ny + up * up) || 1;
-    var azimuth = Math.atan2(ex, ny) * 180 / Math.PI;
-    if (azimuth < 0) azimuth += 360;
-    return {
-      azimuth: azimuth,
-      altitude: Math.asin(Math.max(-1, Math.min(1, up / len))) * 180 / Math.PI
-    };
+    // The SECOND column is the world direction of the device's +y — the top of
+    // the screen — and the bearing needs it as well as the camera axis.
+    var ux = -cB * sA;
+    var uy = cA * cB;
+    var uz = sB;
+
+    // Negated, because the camera looks out of the BACK of the phone.
+    return bearingFrom([-x, -y, -z], [ux, uy, uz]);
   }
 
   function onOrientation(e) {
@@ -131,18 +166,17 @@
   var sensor = null;
 
   function quaternionDirection(q) {
-    // The world direction of the device's +z axis is the third column of the
-    // rotation matrix the quaternion describes. The camera looks along -z.
+    // Columns of the rotation matrix the quaternion describes: the third is the
+    // world direction of the device's +z, the second of its +y. The camera
+    // looks along -z; the top of the screen is +y.
     var x = q[0], y = q[1], z = q[2], w = q[3];
-    var ex = 2 * (x * z + w * y);
-    var ny = 2 * (y * z - w * x);
-    var up = 1 - 2 * (x * x + y * y);
-    var azimuth = Math.atan2(-ex, -ny) * 180 / Math.PI;
-    if (azimuth < 0) azimuth += 360;
-    return {
-      azimuth: azimuth,
-      altitude: Math.asin(Math.max(-1, Math.min(1, -up))) * 180 / Math.PI
-    };
+    var zx = 2 * (x * z + w * y);
+    var zy = 2 * (y * z - w * x);
+    var zz = 1 - 2 * (x * x + y * y);
+    var yx = 2 * (x * y - w * z);
+    var yy = 1 - 2 * (x * x + z * z);
+    var yz = 2 * (y * z + w * x);
+    return bearingFrom([-zx, -zy, -zz], [yx, yy, yz]);
   }
 
   function startSensor() {
