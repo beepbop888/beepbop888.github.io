@@ -103,14 +103,119 @@
     state.gamma = e.gamma;
     state.absolute = e.absolute === true;
     state.source = usingAbsolute ? 'abs' : 'rel';
-    state.screenAngle =
-        (window.screen && window.screen.orientation &&
-         typeof window.screen.orientation.angle === 'number')
-            ? window.screen.orientation.angle
-            : (typeof window.orientation === 'number' ? window.orientation : 0);
+    state.screenAngle = screenAngle();
   }
 
-  function attach() {
+  // ---------------------------------------------------------------------
+  // THE QUATERNION PATH, tried before the angles.
+  //
+  // His report after the last round was sharper than "it is wrong": *"itll be
+  // correct for a second and with 1 movement its completely off course."*
+  // Right at first and wrong after a movement is the signature of a broken
+  // ANGLE decomposition rather than a broken compass — the phone's heading is
+  // fine, the way the three Euler angles are being turned back into a
+  // direction is not.
+  //
+  // `deviceorientation` hands over alpha, beta and gamma: a Z-X'-Y'' rotation
+  // that has to be reassembled here. That decomposition is ambiguous when the
+  // phone is held steeply — which is the ONLY way this feature is ever used,
+  // because pointing at the sky means pointing the phone up — and browsers
+  // differ in which branch they report and when they switch. Once they switch
+  // mid-gesture, the reconstructed bearing jumps and stays jumped.
+  //
+  // `AbsoluteOrientationSensor` reports the same orientation as a QUATERNION,
+  // already referenced to true north. There is no decomposition to get wrong
+  // and no branch to switch: the rotation is read straight off it. It is the
+  // right instrument, and the angles now exist only as the fallback for a
+  // browser that does not have it.
+  var sensor = null;
+
+  function quaternionDirection(q) {
+    // The world direction of the device's +z axis is the third column of the
+    // rotation matrix the quaternion describes. The camera looks along -z.
+    var x = q[0], y = q[1], z = q[2], w = q[3];
+    var ex = 2 * (x * z + w * y);
+    var ny = 2 * (y * z - w * x);
+    var up = 1 - 2 * (x * x + y * y);
+    var azimuth = Math.atan2(-ex, -ny) * 180 / Math.PI;
+    if (azimuth < 0) azimuth += 360;
+    return {
+      azimuth: azimuth,
+      altitude: Math.asin(Math.max(-1, Math.min(1, -up))) * 180 / Math.PI
+    };
+  }
+
+  function startSensor() {
+    if (typeof AbsoluteOrientationSensor === 'undefined') return false;
+    try {
+      sensor = new AbsoluteOrientationSensor({ frequency: 60,
+                                               referenceFrame: 'device' });
+    } catch (e) {
+      sensor = null;
+      return false;
+    }
+    sensor.addEventListener('reading', function () {
+      if (!sensor || !sensor.quaternion) return;
+      var where = quaternionDirection(sensor.quaternion);
+      state.az = where.azimuth;
+      state.alt = where.altitude;
+      state.ok = true;
+      state.reason = '';
+      state.source = 'sensor';
+      state.absolute = true;
+      state.alpha = where.azimuth;
+      state.beta = where.altitude;
+      state.gamma = 0;
+      state.screenAngle = screenAngle();
+    });
+    // A refused permission or an absent magnetometer surfaces here, not at
+    // construction, so the angle path has to be able to take over afterwards.
+    sensor.addEventListener('error', function () {
+      fallBackToAngles();
+    });
+    try {
+      sensor.start();
+    } catch (e) {
+      sensor = null;
+      return false;
+    }
+    // A SENSOR THAT STARTS AND SAYS NOTHING. Construction succeeding and
+    // `start()` not throwing are not the same as readings arriving: a device
+    // without a magnetometer, or with the permission policy withheld, stays
+    // silent and fires no error either. Without this the mode would wait out
+    // its whole first-fix timeout and then report a phone that has no compass,
+    // when the angle path would have worked all along.
+    setTimeout(function () {
+      if (sensor && state.source !== 'sensor') fallBackToAngles();
+    }, 2200);
+    return true;
+  }
+
+  // FALLING BACK HAS TO CLEAR `listening` FIRST.
+  //
+  // `attachAngles` refuses to run twice by returning early when `listening` is
+  // set, and starting the sensor sets it. So a sensor that failed AFTER
+  // starting handed over to a fallback that immediately did nothing, and the
+  // mode sat there with no source at all until the three-second timeout called
+  // the phone sensorless. It is not; the better instrument just gave up.
+  function fallBackToAngles() {
+    if (sensor) {
+      try { sensor.stop(); } catch (e) { /* already gone */ }
+    }
+    sensor = null;
+    state.source = '-';
+    listening = false;
+    attachAngles();
+  }
+
+  function screenAngle() {
+    return (window.screen && window.screen.orientation &&
+            typeof window.screen.orientation.angle === 'number')
+        ? window.screen.orientation.angle
+        : (typeof window.orientation === 'number' ? window.orientation : 0);
+  }
+
+  function attachAngles() {
     if (listening) return;
     // ONE OF THEM, NEVER BOTH.
     //
@@ -128,6 +233,12 @@
       usingAbsolute = false;
     }
     listening = true;
+  }
+
+  function attach() {
+    if (listening) return;
+    if (startSensor()) { listening = true; return; }
+    attachAngles();
   }
 
   // Called from the button tap. Returns a promise resolving to true when the
@@ -156,6 +267,10 @@
   };
 
   window.skyCompassStop = function () {
+    if (sensor) {
+      try { sensor.stop(); } catch (e) { /* already gone */ }
+      sensor = null;
+    }
     window.removeEventListener('deviceorientationabsolute', onOrientation, true);
     window.removeEventListener('deviceorientation', onOrientation, true);
     listening = false;
@@ -188,7 +303,8 @@
   window.skyCompassPossible = function () {
     if (typeof DeviceOrientationEvent === 'undefined') return false;
     if (!('ondeviceorientation' in window) &&
-        !('ondeviceorientationabsolute' in window)) return false;
+        !('ondeviceorientationabsolute' in window) &&
+        typeof AbsoluteOrientationSensor === 'undefined') return false;
     var touch = (navigator.maxTouchPoints || 0) > 0;
     var coarse = typeof window.matchMedia === 'function' &&
         window.matchMedia('(pointer: coarse)').matches;
