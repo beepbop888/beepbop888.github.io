@@ -27,7 +27,9 @@
 (function () {
   'use strict';
 
-  var state = { ok: false, reason: 'не запущено', az: 0, alt: 0 };
+  var state = { ok: false, reason: 'не запущено', az: 0, alt: 0,
+                alpha: 0, beta: 0, gamma: 0, absolute: false,
+                screenAngle: 0, source: '-' };
   var listening = false;
   var usingAbsolute = false;
 
@@ -85,6 +87,27 @@
     state.alt = where.altitude;
     state.ok = true;
     state.reason = '';
+
+    // THE RAW READING IS KEPT AND SHOWN, and this is not leftover debugging.
+    //
+    // The owner reported the sky pointing 90 degrees wrong: *"im facing north
+    // and for some reason when changed to AR mode it instantly turned to
+    // west."* Three rounds were spent guessing at causes from this end, and
+    // the arithmetic here is demonstrably the rotation the specification
+    // defines, so the fault is in what the phone reports rather than in what
+    // is done with it — and which of the several ways that can happen cannot
+    // be told apart from here. His phone is the only instrument that can
+    // settle it, so it now shows its own numbers and he can read them off.
+    state.alpha = alpha;
+    state.beta = e.beta;
+    state.gamma = e.gamma;
+    state.absolute = e.absolute === true;
+    state.source = usingAbsolute ? 'abs' : 'rel';
+    state.screenAngle =
+        (window.screen && window.screen.orientation &&
+         typeof window.screen.orientation.angle === 'number')
+            ? window.screen.orientation.angle
+            : (typeof window.orientation === 'number' ? window.orientation : 0);
   }
 
   function attach() {
@@ -143,7 +166,12 @@
   // Polled by Flutter. Flat object so it crosses the JS interop boundary
   // without any structured cloning surprises.
   window.skyCompassRead = function () {
-    return { ok: state.ok, reason: state.reason, az: state.az, alt: state.alt };
+    return {
+      ok: state.ok, reason: state.reason, az: state.az, alt: state.alt,
+      alpha: state.alpha, beta: state.beta, gamma: state.gamma,
+      absolute: state.absolute, screenAngle: state.screenAngle,
+      source: state.source
+    };
   };
 
   // Whether it is even worth offering.
