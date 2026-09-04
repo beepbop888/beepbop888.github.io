@@ -24827,7 +24827,7 @@ _.c=null},
 Jo:function Jo(){},
 a3B:function a3B(a){this.a=a},
 aIS(){var s,r,q,p,o,n,m,l=null
-A.aHK("R-M-TODO-klyov-1")
+A.aHK("R-M-19980726-1")
 if($.ad==null)A.atz()
 s=$.ad
 s.toString
@@ -82175,7 +82175,7 @@ A.Ag.prototype={
 ac(){var s="klyov_day_pass_v1",r=$.af(),q=new A.l9(s,A.aI_(),r),p=$.Xj.h(0,s)
 if(p==null){p=A.au(t.Uc)
 $.Xj.p(0,s,p)}p.C(0,q)
-return new A.E0(q,new A.a5j("R-M-TODO-klyov-2"),new A.G6(B.o8,r),new A.X6(5,"klyov_weekly","\u041a\u043b\u0451\u0432 \u2014 \u043d\u0430\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0434 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u043c\u0438",B.C4),B.b.ga4(B.ep),B.i)}}
+return new A.E0(q,new A.a5j("R-M-19980726-2"),new A.G6(B.o8,r),new A.X6(5,"klyov_weekly","\u041a\u043b\u0451\u0432 \u2014 \u043d\u0430\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0434 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u043c\u0438",B.C4),B.b.ga4(B.ep),B.i)}}
 A.E0.prototype={
 aB(){var s,r=this
 r.aT()
