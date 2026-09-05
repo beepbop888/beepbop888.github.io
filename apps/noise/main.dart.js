@@ -20883,8 +20883,8 @@ if(s<0||s+1>=a.length)return a
 return B.d.eV(a,s+1).toLowerCase()},
 UX:function UX(a,b){this.a=a
 this.b=b},
-afv(a){if(a<=0.00001)return 0
-return B.c.dZ(94+20*(Math.log(a)/2.302585092994046),0,140)},
+afv(a){if(a<=1e-7)return 0
+return B.c.dZ(120+20*(Math.log(a)/2.302585092994046),0,140)},
 afu(a){var s,r,q=B.b.gV(B.kv)
 for(s=0;s<10;++s){r=B.kv[s]
 if(a>=r.a)q=r}return q},
