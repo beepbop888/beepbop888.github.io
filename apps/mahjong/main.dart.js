@@ -64959,26 +64959,24 @@ $3$spacing(a,b,c){return this.$4$colour$spacing(a,b,B.be,c)},
 $3$colour(a,b,c){return this.$4$colour$spacing(a,b,c,0)},
 $S:432}
 A.w8.prototype={
-L(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.e,g=h*0.13,f=B.c.fh(g,3,9),e=j.d,d=j.f,c=t.sq
-d=A.aaz(0,A.rd(i,new A.cv(e.w,i,i,A.fd(g),A.a([new A.d5(0,B.j4,A.Q(B.c.ah(255*(0.26+d*0.05)),0,0,0),new A.l(f*0.35,f*(0.6+d*0.22)),f*(1.4+d*0.5))],c),i,B.ap),B.bI))
-s=A.fd(g*0.92)
-r=A.a([e.d,e.e],t.t_)
-q=j.r
-if(q)p=B.bd
-else if(j.w)p=B.zu
-else{p=e.r.a
-p=A.Q(140,p>>>16&255,p>>>8&255,p&255)}p=A.Oo(p,q||j.w?2.2:0.8)
-o=e.f
-n=o.a
-m=-h
-l=m*0.012
-k=e.r.a
-c=A.a([new A.d5(-1,B.j5,A.Q(217,n>>>16&255,n>>>8&255,n&255),new A.l(l,l),0),new A.d5(m*0.03,B.j5,A.Q(153,k>>>16&255,k>>>8&255,k&255),new A.l(h*0.02,h*0.03),h*0.06)],c)
-k=h*0.11
-m=j.c
-r=A.a([d,A.aay(f,A.rd(A.n1(new A.BV(B.x6,new A.bz(new A.ah(k,k,k,k),new A.GG(m.b,e.a3V(m),o,i),i),i),i,i),new A.cv(i,i,p,s,c,new A.i6(B.wF,B.wC,B.eQ,r,i,i),B.ap),B.bI),i,i,0,f*0.75,0,i)],t.p)
-if(!j.x)r.push(A.aaz(0,A.t6(A.rd(i,new A.cv(A.Q(87,0,0,0),i,i,A.fd(g),i,i,B.ap),B.bI),!0,i)))
-return new A.bh(h,h*1.34,A.me(B.bq,r,B.p,B.cv),i)}}
+L(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.e,h=i*0.13,g=B.c.fh(h,3,9),f=k.d,e=k.f,d=t.sq
+e=A.aaz(0,A.rd(j,new A.cv(f.w,j,j,A.fd(h),A.a([new A.d5(0,B.j4,A.Q(B.c.ah(255*(0.26+e*0.05)),0,0,0),new A.l(g*0.35,g*(0.6+e*0.22)),g*(1.4+e*0.5))],d),j,B.ap),B.bI))
+s=A.fd(h*0.92)
+r=A.a([f.d,f.e],t.t_)
+q=k.r
+if(q||k.w){p=A.Oo(q?B.bd:B.zu,2.4)
+q=p}else q=j
+p=f.f
+o=p.a
+n=-i
+m=n*0.012
+l=f.r.a
+d=A.a([new A.d5(-1,B.j5,A.Q(217,o>>>16&255,o>>>8&255,o&255),new A.l(m,m),0),new A.d5(n*0.03,B.j5,A.Q(153,l>>>16&255,l>>>8&255,l&255),new A.l(i*0.02,i*0.03),i*0.06)],d)
+l=i*0.11
+n=k.c
+r=A.a([e,A.aay(g,A.rd(A.n1(new A.BV(B.x6,new A.bz(new A.ah(l,l,l,l),new A.GG(n.b,f.a3V(n),p,j),j),j),j,j),new A.cv(j,j,q,s,d,new A.i6(B.wF,B.wC,B.eQ,r,j,j),B.ap),B.bI),j,j,0,g*0.75,0,j)],t.p)
+if(!k.x)r.push(A.aaz(0,A.t6(A.rd(j,new A.cv(A.Q(87,0,0,0),j,j,A.fd(h),j,j,B.ap),B.bI),!0,j)))
+return new A.bh(i,i*1.34,A.me(B.bq,r,B.p,B.cv),j)}}
 A.GG.prototype={
 L(a){var s="MahjongTiles",r=null,q=this.c,p=this.e.a
 p=A.aW(q,r,r,A.fK(r,r,A.Q(191,p>>>16&255,p>>>8&255,p&255),r,r,r,r,r,s,r,r,42,r,r,r,r,1,!0,r,r,r,r,r,r,r,r),r)
