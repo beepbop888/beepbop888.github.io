@@ -1,6 +1,6 @@
 {
-    "name": "stol5",
-    "short_name": "stol5",
+    "name": "Пятый стол",
+    "short_name": "Пятый стол",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
