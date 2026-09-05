@@ -1,6 +1,6 @@
 {
-    "name": "raspisanie_urokov",
-    "short_name": "raspisanie_urokov",
+    "name": "Расписание уроков",
+    "short_name": "Расписание уроков",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
