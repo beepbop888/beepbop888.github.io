@@ -1,6 +1,6 @@
 {
-    "name": "avans_calc",
-    "short_name": "avans_calc",
+    "name": "Аванс",
+    "short_name": "Аванс",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
