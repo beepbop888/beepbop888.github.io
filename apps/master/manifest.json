@@ -1,6 +1,6 @@
 {
-    "name": "master_journal",
-    "short_name": "master_journal",
+    "name": "Журнал мастера",
+    "short_name": "Журнал мастера",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
