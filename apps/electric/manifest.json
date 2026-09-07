@@ -1,6 +1,6 @@
 {
-    "name": "sechenie",
-    "short_name": "sechenie",
+    "name": "Сечение",
+    "short_name": "Сечение",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
