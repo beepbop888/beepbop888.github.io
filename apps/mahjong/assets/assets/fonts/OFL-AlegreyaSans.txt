@@ -1,0 +1,16 @@
+Copyright (c) 2011-2013, Juan Pablo del Peral (juan@huertatipografica.com.ar),
+with Reserved Font Names "Alegreya Sans" and "Alegreya".
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://scripts.sil.org/OFL
+
+The full text of the SIL Open Font License 1.1 accompanying this software is
+reproduced in OFL.txt in this same directory; that copy governs BOTH font
+families shipped here. This file exists because OFL 1.1 clause 1 requires each
+font's OWN copyright notice to travel with it, and OFL.txt carries only the
+Noto Project's notice — so Alegreya Sans, which is this app's primary UI
+typeface, was shipping with no notice at all.
+
+Source: https://github.com/huertatipografica/Alegreya-Sans
+Read: 8 September 2026
