@@ -117,25 +117,30 @@
     });
   };
 
-  // Root-mean-square of the frame as a fraction of full scale, plus the peak.
-  // RMS is what corresponds to loudness; peak is what matters for damage, and
-  // the two are reported separately rather than one standing in for the other.
+  // **THIS FILE NO LONGER COMPUTES A LEVEL. IT HANDS OVER THE SAMPLES.**
+  //
+  // It used to return its own RMS, while the Android path computed its own in
+  // Dart — two implementations of one calculation, which is precisely how the
+  // two platforms came to be 3.01 dB apart (fixed 8 September). Adding
+  // A-weighting to each would have been the same mistake a second time, and a
+  // weighting curve is far easier to get subtly wrong than a divisor.
+  //
+  // So everything — A-weighting, RMS, peak, decibels — happens once, in
+  // `NoiseMeter`, for both platforms. All this decides is whether the stream
+  // is alive, which it can only do here because it owns the buffer.
   window.noiseLevelRead = function () {
     if (!state.ok || !analyser) {
-      return { ok: false, dead: false, reason: state.reason, rms: 0, peak: 0 };
+      return {
+        ok: false, dead: false, reason: state.reason,
+        samples: new Float32Array(0), sampleRate: 48000
+      };
     }
 
     analyser.getFloatTimeDomainData(buffer);
 
-    var sum = 0;
-    var peak = 0;
     var nonZero = false;
     for (var i = 0; i < buffer.length; i++) {
-      var v = buffer[i];
-      if (v !== 0) nonZero = true;
-      sum += v * v;
-      var size = Math.abs(v);
-      if (size > peak) peak = size;
+      if (buffer[i] !== 0) { nonZero = true; break; }
     }
 
     // EXACT ZEROS ARE NOT A QUIET ROOM. See the header.
@@ -146,8 +151,8 @@
           ok: false,
           dead: true,
           reason: 'микрофон не передаёт звук',
-          rms: 0,
-          peak: 0
+          samples: new Float32Array(0),
+          sampleRate: 48000
         };
       }
     } else {
@@ -158,8 +163,10 @@
       ok: true,
       dead: false,
       reason: '',
-      rms: Math.sqrt(sum / buffer.length),
-      peak: peak
+      // A copy: the analyser overwrites `buffer` on the next read, and Dart
+      // reads this asynchronously.
+      samples: buffer.slice(0),
+      sampleRate: (context && context.sampleRate) ? context.sampleRate : 48000
     };
   };
 
