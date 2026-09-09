@@ -71,6 +71,39 @@
 
   <title>Пурины</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- THE LABEL READER, IN THE BROWSER.
+       `flutter_tesseract_ocr` supports web by CALLING A GLOBAL JS FUNCTION
+       named `_extractText` that the app must provide — the plugin ships no
+       web engine of its own. Without this block the photograph button throws
+       «_extractText is not defined» on every web build, which is why the
+       scanner was hidden in the browser and could be tested by nobody: the
+       owner has no Android device, so an Android-only feature was one that
+       neither of us could ever verify.
+       Language data is fetched from tessdata_fast on first use (~2 MB for
+       Russian) and cached by the browser, so the first scan in a session is
+       slower than the rest. -->
+  <script src="https://unpkg.com/tesseract.js@4.0.2/dist/tesseract.min.js"
+          integrity="sha384-p0lyrUSwAXKW8+KUuu0G96F+bX2fnB1MGFTx5X/Y/99IjrwU1BnTzW+H71bs1Vrn"
+          crossorigin="anonymous"></script>
+  <script>
+    async function _extractText(imagePath, mapData) {
+      const worker = await Tesseract.createWorker({
+        langPath: 'https://tessdata.projectnaptha.com/4.0.0_fast',
+      });
+      try {
+        await worker.load();
+        await worker.loadLanguage(mapData.language || 'rus');
+        await worker.initialize(mapData.language || 'rus');
+        if (mapData.args) await worker.setParameters(mapData.args);
+        const out = await worker.recognize(imagePath);
+        return mapData.args && mapData.args['tessjs_create_hocr']
+          ? out.data.hocr : out.data.text;
+      } finally {
+        await worker.terminate();
+      }
+    }
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
