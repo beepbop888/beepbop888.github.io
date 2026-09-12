@@ -1,6 +1,6 @@
 {
-    "name": "krug_timer",
-    "short_name": "krug_timer",
+    "name": "Круговая тренировка",
+    "short_name": "Круговая тренировка",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,6 +1,6 @@
 {
-    "name": "mahjong",
-    "short_name": "mahjong",
+    "name": "Маджонг",
+    "short_name": "Маджонг",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

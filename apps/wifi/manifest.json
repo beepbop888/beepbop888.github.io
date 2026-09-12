@@ -1,6 +1,6 @@
 {
-    "name": "wifi_check",
-    "short_name": "wifi_check",
+    "name": "Проверка Wi-Fi",
+    "short_name": "Проверка Wi-Fi",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
