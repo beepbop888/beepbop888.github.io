@@ -1,6 +1,6 @@
 {
-    "name": "cikl_calendar",
-    "short_name": "cikl_calendar",
+    "name": "Цикл",
+    "short_name": "Цикл",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
