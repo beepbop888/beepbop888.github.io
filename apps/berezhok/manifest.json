@@ -1,6 +1,6 @@
 {
-    "name": "berezhok",
-    "short_name": "berezhok",
+    "name": "Бережок",
+    "short_name": "Бережок",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

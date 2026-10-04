@@ -1,6 +1,6 @@
 {
-    "name": "norma_davleniya",
-    "short_name": "norma_davleniya",
+    "name": "Норма давления",
+    "short_name": "Норма давления",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
