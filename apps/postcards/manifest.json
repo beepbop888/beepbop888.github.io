@@ -1,6 +1,6 @@
 {
-    "name": "Тёплые открытки",
-    "short_name": "Открытки",
+    "name": "Открытки и поздравления — тёплые открытки",
+    "short_name": "Открытки и поздравления — тёплые открытки",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F3E7CF",
