@@ -1,11 +1,11 @@
 {
-    "name": "vam_dolzhny",
-    "short_name": "vam_dolzhny",
+    "name": "Вам должны",
+    "short_name": "Вам должны",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Вам должны — на сколько должны снизить плату за отключения воды и холод в квартире",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
