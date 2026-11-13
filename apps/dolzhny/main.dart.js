@@ -26373,7 +26373,7 @@ this.b=!1},
 a6q:function a6q(){},
 YZ:function YZ(){},
 aOj(){var s,r,q,p,o,n,m,l=null
-A.aN9("R-M-TODO-dolzhny-appopen")
+A.aN9("R-M-20414565-1")
 A.asD("dolzhny")
 if($.ae==null)A.ayX()
 s=$.ae
@@ -87185,7 +87185,7 @@ A.xJ.prototype={
 a6(){var s="dolzhny.day_pass",r=A.a([],t.T6),q=$.a5(),p=new A.lv(s,A.aNq(),q),o=$.Zl.h(0,s)
 if(o==null){o=A.aw(t.Uc)
 $.Zl.q(0,s,o)}o.I(0,p)
-return new A.D_(new A.Mx(r,B.a1u,q),p,new A.a7R("R-M-TODO-dolzhny-rewarded"),B.i)}}
+return new A.D_(new A.Mx(r,B.a1u,q),p,new A.a7R("R-M-20414565-2"),B.i)}}
 A.D_.prototype={
 aw(){var s,r=this
 r.aJ()
