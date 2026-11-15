@@ -43331,7 +43331,7 @@ q=m
 p=n}if(m>r){o=n
 r=m}}l=r-q
 if(l===0)l=1
-k=b0.b-22
+k=b0.b-30
 j=b0.a-52
 i=new A.aoE(a5,0,j)
 h=new A.aoF(a7,k,14,l)
@@ -43373,7 +43373,7 @@ a4=q.bt()
 a4.san(a2===o?B.dh:B.dk)
 a4.sda(B.bh)
 a4.sfW(2.2)
-a9.iR(a3,4.5,a4)}f=k+5
+a9.iR(a3,4.5,a4)}f=k+12
 a5.P2(a9,A.cH(B.b.ga8(a8).a),new A.h(0,f),B.b8,12)
 a5.P2(a9,A.cH(B.b.gb6(a8).a),new A.h(j-64,f),B.b8,12)
 f=a5.c
