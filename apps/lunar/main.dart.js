@@ -26424,7 +26424,7 @@ _.b=b
 _.c=c
 _.d=d},
 aRf(){var s,r,q,p,o,n,m,l=null
-A.aPQ("R-M-TODO-lunar-appopen")
+A.aPQ("R-M-20426592-1")
 A.auX("lunar")
 if($.aj==null)A.aBf()
 s=$.aj
@@ -87928,7 +87928,7 @@ return new A.CH(new A.Ph(r,q),new A.a9p(A.A(t.N,t.PS)),p,B.j)}}
 A.CH.prototype={
 gt_(){var s=this.r
 if(s===$){s!==$&&A.aa()
-s=this.r=new A.acC("R-M-TODO-lunar-rewarded")}return s},
+s=this.r=new A.acC("R-M-20426592-2")}return s},
 KE(){var s=this,r=s.d.gvm(),q=s.f.gjo()
 if(!r.j(0,s.at)||q!==s.ax){s.at=r
 s.ax=q
