@@ -38133,7 +38133,7 @@ $0(){return this.a.qv(this.b,this.c)},
 $S:0}
 A.F8.prototype={
 D(a){var s=null
-return A.cC(B.Z,A.cH(A.a([new A.eR(1,B.bH,A.aa("\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u043d\u0438\u043a",1,B.aX,s,A.eG(s,s,B.f8,s,B.f,s,s,s,s,s,s,14.49,s,s,B.br,s,1.1,!0,s,s,s,s,s,s,s,s),B.cY,s),s),A.aa("  \xb7  beepbop888.github.io",1,s,s,A.eG(s,s,A.L(184,107,102,91),s,B.f,s,s,s,s,s,s,12.88,s,s,s,s,1.1,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.R,B.te,B.ak),B.o,B.a7,s,s,46,s,B.DG,1/0)}}
+return A.cC(B.Z,A.cH(A.a([new A.eR(1,B.bH,A.aa("\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u0430 \u043b\u0435\u0441\u0430",1,B.aX,s,A.eG(s,s,B.f8,s,B.f,s,s,s,s,s,s,14.49,s,s,B.br,s,1.1,!0,s,s,s,s,s,s,s,s),B.cY,s),s),A.aa("  \xb7  beepbop888.github.io",1,s,s,A.eG(s,s,A.L(184,107,102,91),s,B.f,s,s,s,s,s,s,12.88,s,s,s,s,1.1,!0,s,s,s,s,s,s,s,s),s,s)],t.p),B.R,B.te,B.ak),B.o,B.a7,s,s,46,s,B.DG,1/0)}}
 A.XM.prototype={
 gkb(){return B.a0t}}
 A.dZ.prototype={
@@ -80025,7 +80025,7 @@ A.h0.prototype={
 gE(a){return this.b}}
 A.HJ.prototype={
 D(a){var s=null,r=A.apC(s,B.a7,s,B.a7,s,s,s,s,s,s,s,B.a3J,s,s,B.a6H,s,B.de,s,s,new A.bH(A.d5(6),B.m),s,B.dV,s),q=A.aqx(B.de,B.a7,B.hx,s,new A.bH(A.d5(8),B.m)),p=A.aC_(s,s,s,s,s,s,s,s,s,B.aj,s,B.hx,s,s,new A.bH(A.d5(8),B.m),B.zR,s,s,s,s)
-return new A.xe(B.Ep,"\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u043d\u0438\u043a",A.zO(B.zp,s,r,B.Bo,B.CY,new A.q5(q),"IBMPlexSans",A.aB9(new A.fq(4,A.d5(8),B.dV),new A.fq(4,A.d5(8),B.dV),B.a7,!0,new A.fq(4,A.d5(8),B.zM),!0),new A.nS(s,B.a7,s,s,s,B.e4,s,new A.aM(B.a6E,t.RP),s,s,s),new A.qF(p),B.df,B.a79,!0),!1,B.As,s)}}
+return new A.xe(B.Ep,"\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u0430 \u043b\u0435\u0441\u0430",A.zO(B.zp,s,r,B.Bo,B.CY,new A.q5(q),"IBMPlexSans",A.aB9(new A.fq(4,A.d5(8),B.dV),new A.fq(4,A.d5(8),B.dV),B.a7,!0,new A.fq(4,A.d5(8),B.zM),!0),new A.nS(s,B.a7,s,s,s,B.e4,s,new A.aM(B.a6E,t.RP),s,s,s),new A.qF(p),B.df,B.a79,!0),!1,B.As,s)}}
 A.wr.prototype={
 ad(){var s="kubaturnik.day_pass",r=new A.kL(s,A.aoe(),$.ah()),q=$.WO.h(0,s)
 if(q==null){q=A.ax(t.Uc)
@@ -80067,7 +80067,7 @@ var $async$qw=A.I(function(a,b){if(a===1)return A.E(b,r)
 while(true)switch(s){case 0:o=p.c
 o.toString
 s=3
-return A.J(A.kS(o,"kubaturnik",B.nj,"\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u043d\u0438\u043a",u.L),$async$qw)
+return A.J(A.kS(o,"kubaturnik",B.nj,"\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u0430 \u043b\u0435\u0441\u0430",u.L),$async$qw)
 case 3:o=p.c
 if(o==null){s=1
 break}s=4
@@ -80090,7 +80090,7 @@ D(a){var s,r,q,p,o,n=this,m=null
 if(!n.gjZ().e)return B.a_D
 s=n.w>=2&&!n.e.gdZ()
 r=n.w
-$label0$0:{if(0===r){q="\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u043d\u0438\u043a"
+$label0$0:{if(0===r){q="\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u0430 \u043b\u0435\u0441\u0430"
 break $label0$0}if(1===r){q="\u0414\u043e\u0441\u043a\u0438"
 break $label0$0}if(2===r){q="\u041f\u0430\u0440\u0442\u0438\u0438"
 break $label0$0}q="\u0415\u0449\u0451"
@@ -80128,7 +80128,7 @@ case 2:p=q.a.c
 s=p!=null?3:4
 break
 case 3:s=5
-return A.J(A.kS(p,"kubaturnik",B.nj,"\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u043d\u0438\u043a",u.L),$async$$0)
+return A.J(A.kS(p,"kubaturnik",B.nj,"\u041a\u0443\u0431\u0430\u0442\u0443\u0440\u0430 \u043b\u0435\u0441\u0430",u.L),$async$$0)
 case 5:case 4:return A.F(null,r)}})
 return A.G($async$$0,r)},
 $S:8}
