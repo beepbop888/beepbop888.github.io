@@ -7578,7 +7578,7 @@ _.B$=d
 _.a2$=_.P$=0
 _.Y$=!1},
 aUk(){var s,r,q,p,o,n,m,l=null
-A.aSV("R-M-TODO-kurs-appopen")
+A.aSV("R-M-20433760-1")
 A.axD("kurs")
 A.aw4()
 if($.aj==null)A.aEe()
@@ -42201,7 +42201,7 @@ return new A.De(n,new A.a8u(null,A.aUm()),new A.Or(l,m,s,r),q,B.j)}}
 A.De.prototype={
 gPt(){var s=this.w
 if(s===$){s!==$&&A.a4()
-s=this.w=new A.ae2("R-M-TODO-kurs-rewarded")}return s},
+s=this.w=new A.ae2("R-M-20433760-2")}return s},
 aR(){var s,r=this
 r.bh()
 $.aj.cD$.push(r)
