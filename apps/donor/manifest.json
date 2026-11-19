@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Когда снова можно сдать кровь и путь к почётному донору.",
+    "description": "Донор: когда снова можно сдать кровь и сколько до почётного донора",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
