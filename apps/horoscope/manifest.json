@@ -1,11 +1,11 @@
 {
-    "name": "horoscope_today",
-    "short_name": "horoscope_today",
+    "name": "Гороскоп на сегодня",
+    "short_name": "Гороскоп на сегодня",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Прогноз на сегодня для вашего знака — по настоящему небу дня, без интернета",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
