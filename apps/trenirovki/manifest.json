@@ -1,11 +1,11 @@
 {
-    "name": "home_workout",
-    "short_name": "home_workout",
+    "name": "Тренировки дома",
+    "short_name": "Тренировки дома",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "План на 30 дней без инвентаря: картинка и таймер к каждому упражнению",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
