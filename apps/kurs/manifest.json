@@ -1,11 +1,11 @@
 {
-    "name": "currency_rates",
-    "short_name": "currency_rates",
+    "name": "Курс валют ЦБ",
+    "short_name": "Курс валют ЦБ",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Официальный курс ЦБ с cbr.ru: на сегодня и завтра, конвертер, графики",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
