@@ -1,11 +1,11 @@
 {
-    "name": "breathing",
-    "short_name": "breathing",
+    "name": "Дыхание",
+    "short_name": "Дыхание",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Дыхание 4-7-8 и квадрат: круг растёт на вдохе, у каждой фазы свой звук",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
