@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Вам должны — на сколько должны снизить плату за отключения воды и холод в квартире",
+    "description": "На сколько должны снизить плату за отключение воды и холод в квартире",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
