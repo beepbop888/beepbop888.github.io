@@ -1,11 +1,11 @@
 {
-    "name": "moon_calendar",
-    "short_name": "moon_calendar",
+    "name": "Лунный календарь",
+    "short_name": "Лунный календарь",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Лунный день для вашего города, фаза Луны, стрижки и огород — без интернета",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
