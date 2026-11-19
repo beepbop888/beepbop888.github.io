@@ -1,11 +1,11 @@
 {
-    "name": "eye_exercises",
-    "short_name": "eye_exercises",
+    "name": "Зарядка для глаз",
+    "short_name": "Зарядка для глаз",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Гимнастика для глаз по точке и по звуку, перерыв 20-20-20 с напоминанием",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
