@@ -1,11 +1,11 @@
 {
-    "name": "shift_calendar",
-    "short_name": "shift_calendar",
+    "name": "Смена",
+    "short_name": "Смена",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "График смен 1/1, 2/2, 3/3, сутки через трое: расчёт месяца и зарплаты",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
