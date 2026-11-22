@@ -1,6 +1,6 @@
 {
-    "name": "Смена",
-    "short_name": "Смена",
+    "name": "Смена: график смен и зарплата",
+    "short_name": "Смена: график смен и зарплата",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
