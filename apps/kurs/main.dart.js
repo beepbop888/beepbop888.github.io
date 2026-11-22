@@ -7687,23 +7687,22 @@ _.d=d
 _.e=e
 _.f=f
 _.r=g},
-q1(a){var s=0,r=A.H(t.H),q,p
+q1(a){var s=0,r=A.H(t.H),q
 var $async$q1=A.I(function(b,c){if(b===1)return A.E(c,r)
 while(true)switch(s){case 0:s=3
-return A.w(A.KO("kurs"),$async$q1)
-case 3:p=c
-s=4
-return A.w(A.KN("kurs"),$async$q1)
-case 4:if(a.e==null){s=1
-break}s=5
-return A.w(A.lL(a,"kurs",B.u8,"\u041a\u0443\u0440\u0441 \u0432\u0430\u043b\u044e\u0442 \u0426\u0411",u.r),$async$q1)
-case 5:s=p?6:7
+return A.w(A.KN("kurs_asked"),$async$q1)
+case 3:if(a.e==null){s=1
+break}s=4
+return A.w(A.lL(a,"kurs_asked",B.u8,"\u041a\u0443\u0440\u0441 \u0432\u0430\u043b\u044e\u0442 \u0426\u0411",u.r),$async$q1)
+case 4:s=7
+return A.w(A.KO("kurs_asked"),$async$q1)
+case 7:s=c?5:6
 break
-case 6:s=9
+case 5:s=9
 return A.w(A.ea(),$async$q1)
 case 9:s=8
 return A.w(c.k_("Bool","intro_seen_v2_kurs",!0),$async$q1)
-case 8:case 7:case 1:return A.F(q,r)}})
+case 8:case 6:case 1:return A.F(q,r)}})
 return A.G($async$q1,r)},
 we:function we(a,b,c,d,e){var _=this
 _.c=a
