@@ -1,11 +1,11 @@
 {
-    "name": "Дневник под замком",
-    "short_name": "Дневник под замком",
+    "name": "Личный дневник под замком",
+    "short_name": "Личный дневник под замком",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Мой личный дневник с паролем: напоминание вечером и копия без Google",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
